@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6E1A0A70-4AD3-4BD2-A49D-78E7A1BDD271"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6578288-A5CF-46A9-B2AB-8FAFF007E39E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VNParkingTests/helper/Parking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "getParkingResponseFromJSON()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F6F52C1-DE8A-4A0E-8681-A3394962E337"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VNParkingTests/helper/Parking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "getParkingResponseFromJSON()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E752671-39B2-4572-BE5F-EE0DC652AF98"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VNParkingTests/helper/Parking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "getParkingResponseFromJSON()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "636B084B-C833-4BE6-BF28-77B68512F0D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VNParkingTests/helper/Parking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "getParkingResponseFromJSON()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "636B084B-C833-4BE6-BF28-77B68512F0D1 - 192f2913e4a4daff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static VNParkingTests.Parking.getParkingResponseFromJSON() -&gt; Swift.Optional&lt;VNParking.ParkingResponse&gt;"
+                  moduleName = "VNParkingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/t0366-ade-mb-1/Documents/2nd/VNParking/VNParkingTests/helper/Parking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "636B084B-C833-4BE6-BF28-77B68512F0D1 - 192f2913e4a4daff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static VNParkingTests.Parking.getParkingResponseFromJSON() -&gt; Swift.Optional&lt;VNParking.ParkingResponse&gt;"
+                  moduleName = "VNParkingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/t0366-ade-mb-1/Documents/2nd/VNParking/VNParkingTests/helper/Parking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "360">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29321116-ACFF-4B54-B111-02AFC85597C4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VNParkingTests/helper/Parking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "getParkingResponseFromJSON()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "29321116-ACFF-4B54-B111-02AFC85597C4 - 192f2913e4a4db7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static VNParkingTests.Parking.getParkingResponseFromJSON() -&gt; Swift.Optional&lt;VNParking.ParkingResponse&gt;"
+                  moduleName = "VNParkingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/t0366-ade-mb-1/Documents/2nd/VNParking/VNParkingTests/helper/Parking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "616">
+               </Location>
+               <Location
+                  uuid = "29321116-ACFF-4B54-B111-02AFC85597C4 - 192f2913e4a4db7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static VNParkingTests.Parking.getParkingResponseFromJSON() -&gt; Swift.Optional&lt;VNParking.ParkingResponse&gt;"
+                  moduleName = "VNParkingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/t0366-ade-mb-1/Documents/2nd/VNParking/VNParkingTests/helper/Parking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "912">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B861BD7-AF7C-4400-9C65-E3AD76EC82EA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VNParkingTests/helper/Parking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "getParkingResponseFromJSON()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BFBAAEF0-D075-4C8A-B8FC-6917F0291C4C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VNParkingTests/VNParkingTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "testDecodeJSONFromFile()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

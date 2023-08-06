@@ -145,6 +145,36 @@
                   endingLineNumber = "105"
                   offsetFromSymbolStart = "912">
                </Location>
+               <Location
+                  uuid = "29321116-ACFF-4B54-B111-02AFC85597C4 - 192f2913e4a4db18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static VNParkingTests.Parking.getParkingResponseFromJSON() -&gt; Swift.Optional&lt;VNParking.ParkingResponse&gt;"
+                  moduleName = "VNParkingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/t0366-ade-mb-1/Documents/2nd/VNParking/VNParkingTests/helper/Parking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "29321116-ACFF-4B54-B111-02AFC85597C4 - 192f2913e4a4db18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static VNParkingTests.Parking.getParkingResponseFromJSON() -&gt; Swift.Optional&lt;VNParking.ParkingResponse&gt;"
+                  moduleName = "VNParkingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/t0366-ade-mb-1/Documents/2nd/VNParking/VNParkingTests/helper/Parking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "356">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -174,9 +204,9 @@
             filePath = "VNParkingTests/VNParkingTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
-            landmarkName = "testDecodeJSON()"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "testDecodeJSONFromFile()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

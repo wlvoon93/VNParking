@@ -8,79 +8,6 @@
 import XCTest
 @testable import VNParking
 
-class ParkingVM {
-    var smallParkingDisplay: SmallParkingDisplay
-    var mediumParkingDisplay: MediumParkingDisplay
-    var bigParkingDisplay: BigParkingDisplay
-    var largeParkingDisplay: LargeParkingDisplay
-    var displays: [ParkingDisplayable] {
-        return [smallParkingDisplay, mediumParkingDisplay, bigParkingDisplay, largeParkingDisplay]
-    }
-    
-    init(smallParkingDisplay: SmallParkingDisplay, mediumParkingDisplay: MediumParkingDisplay, bigParkingDisplay: BigParkingDisplay, largeParkingDisplay: LargeParkingDisplay) {
-        self.smallParkingDisplay = smallParkingDisplay
-        self.mediumParkingDisplay = mediumParkingDisplay
-        self.bigParkingDisplay = bigParkingDisplay
-        self.largeParkingDisplay = largeParkingDisplay
-    }
-    
-    func getParkingDisplay(carParkData: ParkingResponse.ParkingItem.CarparkData) -> ParkingDisplayable {
-        
-        let totalLots: Int = Int(carParkData.carpark_info.first?.total_lots ?? "") ?? 0
-        if totalLots < 100 {
-            return smallParkingDisplay
-        } else if totalLots >= 100 && totalLots < 300 {
-            return mediumParkingDisplay
-        } else if totalLots >= 300 && totalLots < 400 {
-            return bigParkingDisplay
-        } else {
-            return largeParkingDisplay
-        }
-    }
-    
-    func updateParkingDisplay(update display: ParkingDisplayable, with carParkData: ParkingResponse.ParkingItem.CarparkData) {
-        
-        let dataLotsAvailable = Int(carParkData.carpark_info.first?.lots_available ?? "") ?? 0
-        var display = display
-        
-        if display.highestLotIds.isEmpty {
-            display.highestLotIds.append(carParkData.carpark_number)
-            display.highestAvailableLotAmount = dataLotsAvailable
-        } else if let amount = display.highestAvailableLotAmount,
-                  dataLotsAvailable < amount,
-                  display.lowestAvailableLotAmount == nil {
-            display.lowestLotIds.append(carParkData.carpark_number)
-            display.lowestAvailableLotAmount = dataLotsAvailable
-        } else if let amount = display.highestAvailableLotAmount,
-                  dataLotsAvailable > amount,
-                  display.lowestAvailableLotAmount == nil {
-            display.lowestLotIds = display.highestLotIds
-            display.lowestAvailableLotAmount = display.highestAvailableLotAmount
-            
-            display.highestLotIds = [carParkData.carpark_number]
-            display.highestAvailableLotAmount = dataLotsAvailable
-        } else if let amount = display.highestAvailableLotAmount,
-                  dataLotsAvailable > amount {
-            display.highestLotIds = [carParkData.carpark_number]
-            display.highestAvailableLotAmount = dataLotsAvailable
-        } else if let amount = display.highestAvailableLotAmount,
-                 dataLotsAvailable == amount {
-            display.highestLotIds.append(carParkData.carpark_number)
-        } else if let amount = display.lowestAvailableLotAmount,
-                 dataLotsAvailable > amount {
-            display.lowestLotIds = [carParkData.carpark_number]
-            display.lowestAvailableLotAmount = dataLotsAvailable
-        } else if let amount = display.lowestAvailableLotAmount,
-                dataLotsAvailable < amount {
-            display.lowestLotIds = [carParkData.carpark_number]
-            display.lowestAvailableLotAmount = dataLotsAvailable
-        } else if let amount = display.lowestAvailableLotAmount,
-                dataLotsAvailable == amount {
-            display.lowestLotIds.append(carParkData.carpark_number)
-        }
-    }
-}
-
 final class VNParkingTests: XCTestCase {
 
     func testDecodeJSON() {
@@ -148,8 +75,8 @@ final class VNParkingTests: XCTestCase {
         // get parking display
         sut.updateParkingDisplay(update: parkingDisplay, with: data)
         
-        XCTAssertEqual(parkingDisplay.highestAvailableLotAmount, 9)
-        XCTAssertEqual(parkingDisplay.highestLotIds, ["ABC"])
+        XCTAssertEqual(parkingDisplay.highestAvailableLotAmount.value, 9)
+        XCTAssertEqual(parkingDisplay.highestLotIds.value, ["ABC"])
     }
     
     func testInitialState_whenHaveFirstData_atDifferentCarparkSize_InsertData() {
@@ -164,11 +91,11 @@ final class VNParkingTests: XCTestCase {
         let parking2 = sut.getParkingDisplay(carParkData: mediumData)
         sut.updateParkingDisplay(update: parking2, with: mediumData)
         
-        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount, 9)
-        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds, ["ABC"])
+        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount.value, 9)
+        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds.value, ["ABC"])
         
-        XCTAssertEqual(sut.mediumParkingDisplay.highestAvailableLotAmount, 17)
-        XCTAssertEqual(sut.mediumParkingDisplay.highestLotIds, ["DEF"])
+        XCTAssertEqual(sut.mediumParkingDisplay.highestAvailableLotAmount.value, 17)
+        XCTAssertEqual(sut.mediumParkingDisplay.highestLotIds.value, ["DEF"])
     }
     
     func test_whenHaveFirstDataAndNoLowest_andDataIsLower_insertIntoLowest() {
@@ -184,11 +111,11 @@ final class VNParkingTests: XCTestCase {
 
         sut.updateParkingDisplay(update: parking, with: data2)
         
-        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount, 9)
-        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds, ["ABC"])
+        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount.value, 9)
+        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds.value, ["ABC"])
         
-        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount, 8)
-        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds, ["DEF"])
+        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount.value, 8)
+        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds.value, ["DEF"])
     }
     
     func test_whenHaveFirstDataAndNoLowest_andDataIsHigher_moveHighDataToLow() {
@@ -204,11 +131,11 @@ final class VNParkingTests: XCTestCase {
 
         sut.updateParkingDisplay(update: parking, with: data2)
         
-        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount, 11)
-        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds, ["DEF"])
+        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount.value, 11)
+        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds.value, ["DEF"])
         
-        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount, 9)
-        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds, ["ABC"])
+        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount.value, 9)
+        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds.value, ["ABC"])
     }
     
     func test_whenHaveFirstDataAndHaveLowest_andDataIsLower_replaceLowest() {
@@ -229,11 +156,11 @@ final class VNParkingTests: XCTestCase {
 
         sut.updateParkingDisplay(update: parking, with: data3)
         
-        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount, 9)
-        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds, ["ABC"])
+        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount.value, 9)
+        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds.value, ["ABC"])
         
-        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount, 6)
-        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds, ["FFG"])
+        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount.value, 6)
+        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds.value, ["FFG"])
     }
     
     func test_whenHaveFirstDataAndHaveLowest_andDataIsHigher_replaceHighest() {
@@ -254,11 +181,11 @@ final class VNParkingTests: XCTestCase {
 
         sut.updateParkingDisplay(update: parking, with: data3)
         
-        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount, 11)
-        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds, ["FFG"])
+        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount.value, 11)
+        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds.value, ["FFG"])
         
-        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount, 8)
-        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds, ["DEF"])
+        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount.value, 8)
+        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds.value, ["DEF"])
     }
     
     func test_whenHaveFirstDataAndHaveLowest_andDataIsEqualHighest_appendIdToHighest() {
@@ -279,11 +206,11 @@ final class VNParkingTests: XCTestCase {
 
         sut.updateParkingDisplay(update: parking, with: data3)
         
-        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount, 9)
-        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds, ["ABC", "FFG"])
+        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount.value, 9)
+        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds.value, ["ABC", "FFG"])
         
-        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount, 8)
-        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds, ["DEF"])
+        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount.value, 8)
+        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds.value, ["DEF"])
     }
     
     func test_whenHaveFirstDataAndHaveLowest_andDataIsEqualLowest_appendIdToLowest() {
@@ -304,98 +231,22 @@ final class VNParkingTests: XCTestCase {
 
         sut.updateParkingDisplay(update: parking, with: data3)
         
-        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount, 9)
-        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds, ["ABC"])
+        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount.value, 9)
+        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds.value, ["ABC"])
         
-        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount, 8)
-        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds, ["DEF", "FFG"])
+        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount.value, 8)
+        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds.value, ["DEF", "FFG"])
     }
     
     func makeSUT() -> ParkingVM {
-        let small = SmallParkingDisplay(highestAvailableLotAmount: nil, highestLotIds: [], lowestAvailableLotAmount: nil, lowestLotIds: [])
-        let medium = MediumParkingDisplay(highestAvailableLotAmount: nil, highestLotIds: [], lowestAvailableLotAmount: nil, lowestLotIds: [])
-        let big = BigParkingDisplay(highestAvailableLotAmount: nil, highestLotIds: [], lowestAvailableLotAmount: nil, lowestLotIds: [])
-        let large = LargeParkingDisplay(highestAvailableLotAmount: nil, highestLotIds: [], lowestAvailableLotAmount: nil, lowestLotIds: [])
+        let small = SmallParkingDisplay()
+        let medium = MediumParkingDisplay()
+        let big = BigParkingDisplay()
+        let large = LargeParkingDisplay()
         return ParkingVM(smallParkingDisplay: small, mediumParkingDisplay: medium, bigParkingDisplay: big, largeParkingDisplay: large)
     }
 }
 
-protocol ParkingDisplayable {
-    var highestAvailableLotAmount: Int? { get set }
-    var highestLotIds: [String] { get set }
-    
-    var lowestAvailableLotAmount: Int? { get set }
-    var lowestLotIds: [String] { get set }
-}
 
-// loop the array
-// small, medium, big, large
-//
-// highestAvailableLot, HighestLotNumbers, lowestAvailableLot, LowestLotNumbers
-//
-// for loop, check is small or medium, get medium display and
-// compare, if higher
-// update the ParkingDisplay, if same add to id
-// compare, if lower
-// update the ParkingDisplay, if same add to id
-class SmallParkingDisplay: ParkingDisplayable {
-    var highestAvailableLotAmount: Int?
-    var highestLotIds: [String]
-    
-    var lowestAvailableLotAmount: Int?
-    var lowestLotIds: [String]
-    
-    public init(highestAvailableLotAmount: Int?, highestLotIds: [String], lowestAvailableLotAmount: Int?, lowestLotIds: [String]) {
-        self.highestAvailableLotAmount = highestAvailableLotAmount
-        self.highestLotIds = highestLotIds
-        self.lowestAvailableLotAmount = lowestAvailableLotAmount
-        self.lowestLotIds = lowestLotIds
-    }
-}
-
-class MediumParkingDisplay: ParkingDisplayable {
-    var highestAvailableLotAmount: Int?
-    var highestLotIds: [String]
-    
-    var lowestAvailableLotAmount: Int?
-    var lowestLotIds: [String]
-    
-    public init(highestAvailableLotAmount: Int?, highestLotIds: [String], lowestAvailableLotAmount: Int?, lowestLotIds: [String]) {
-        self.highestAvailableLotAmount = highestAvailableLotAmount
-        self.highestLotIds = highestLotIds
-        self.lowestAvailableLotAmount = lowestAvailableLotAmount
-        self.lowestLotIds = lowestLotIds
-    }
-}
-
-class BigParkingDisplay: ParkingDisplayable {
-    var highestAvailableLotAmount: Int?
-    var highestLotIds: [String]
-    
-    var lowestAvailableLotAmount: Int?
-    var lowestLotIds: [String]
-    
-    public init(highestAvailableLotAmount: Int?, highestLotIds: [String], lowestAvailableLotAmount: Int?, lowestLotIds: [String]) {
-        self.highestAvailableLotAmount = highestAvailableLotAmount
-        self.highestLotIds = highestLotIds
-        self.lowestAvailableLotAmount = lowestAvailableLotAmount
-        self.lowestLotIds = lowestLotIds
-    }
-}
-
-class LargeParkingDisplay: ParkingDisplayable {
-    var highestAvailableLotAmount: Int?
-    var highestLotIds: [String]
-    
-    var lowestAvailableLotAmount: Int?
-    var lowestLotIds: [String]
-    
-    public init(highestAvailableLotAmount: Int?, highestLotIds: [String], lowestAvailableLotAmount: Int?, lowestLotIds: [String]) {
-        self.highestAvailableLotAmount = highestAvailableLotAmount
-        self.highestLotIds = highestLotIds
-        self.lowestAvailableLotAmount = lowestAvailableLotAmount
-        self.lowestLotIds = lowestLotIds
-    }
-}
 
 

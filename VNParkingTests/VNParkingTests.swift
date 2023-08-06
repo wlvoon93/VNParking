@@ -59,8 +59,24 @@ class ParkingVM {
             
             display.highestLotIds = [carParkData.carpark_number]
             display.highestAvailableLotAmount = dataLotsAvailable
-            
-            
+        } else if let amount = display.highestAvailableLotAmount,
+                  dataLotsAvailable > amount {
+            display.highestLotIds = [carParkData.carpark_number]
+            display.highestAvailableLotAmount = dataLotsAvailable
+        } else if let amount = display.highestAvailableLotAmount,
+                 dataLotsAvailable == amount {
+            display.highestLotIds.append(carParkData.carpark_number)
+        } else if let amount = display.lowestAvailableLotAmount,
+                 dataLotsAvailable > amount {
+            display.lowestLotIds = [carParkData.carpark_number]
+            display.lowestAvailableLotAmount = dataLotsAvailable
+        } else if let amount = display.lowestAvailableLotAmount,
+                dataLotsAvailable < amount {
+            display.lowestLotIds = [carParkData.carpark_number]
+            display.lowestAvailableLotAmount = dataLotsAvailable
+        } else if let amount = display.lowestAvailableLotAmount,
+                dataLotsAvailable == amount {
+            display.lowestLotIds.append(carParkData.carpark_number)
         }
     }
 }
@@ -155,7 +171,6 @@ final class VNParkingTests: XCTestCase {
         XCTAssertEqual(sut.mediumParkingDisplay.highestLotIds, ["DEF"])
     }
     
-    // different carpark sizes
     func test_whenHaveFirstDataAndNoLowest_andDataIsLower_insertIntoLowest() {
         // update 1
         let data = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "50", lot_type: "C", lots_available: "9")], carpark_number: "ABC", update_datetime: "12345")
@@ -176,7 +191,6 @@ final class VNParkingTests: XCTestCase {
         XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds, ["DEF"])
     }
     
-    // move to low
     func test_whenHaveFirstDataAndNoLowest_andDataIsHigher_moveHighDataToLow() {
         // update 1
         let data = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "50", lot_type: "C", lots_available: "9")], carpark_number: "ABC", update_datetime: "12345")
@@ -195,6 +209,106 @@ final class VNParkingTests: XCTestCase {
         
         XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount, 9)
         XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds, ["ABC"])
+    }
+    
+    func test_whenHaveFirstDataAndHaveLowest_andDataIsLower_replaceLowest() {
+        // update 1
+        let data = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "50", lot_type: "C", lots_available: "9")], carpark_number: "ABC", update_datetime: "12345")
+        let sut = makeSUT()
+        let parking = sut.getParkingDisplay(carParkData: data)
+        sut.updateParkingDisplay(update: parking, with: data)
+
+        
+        // update 2
+        let data2 = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "50", lot_type: "C", lots_available: "8")], carpark_number: "DEF", update_datetime: "12345")
+
+        sut.updateParkingDisplay(update: parking, with: data2)
+        
+        // update 3
+        let data3 = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "50", lot_type: "C", lots_available: "6")], carpark_number: "FFG", update_datetime: "12345")
+
+        sut.updateParkingDisplay(update: parking, with: data3)
+        
+        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount, 9)
+        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds, ["ABC"])
+        
+        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount, 6)
+        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds, ["FFG"])
+    }
+    
+    func test_whenHaveFirstDataAndHaveLowest_andDataIsHigher_replaceHighest() {
+        // update 1
+        let data = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "50", lot_type: "C", lots_available: "9")], carpark_number: "ABC", update_datetime: "12345")
+        let sut = makeSUT()
+        let parking = sut.getParkingDisplay(carParkData: data)
+        sut.updateParkingDisplay(update: parking, with: data)
+
+        
+        // update 2
+        let data2 = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "50", lot_type: "C", lots_available: "8")], carpark_number: "DEF", update_datetime: "12345")
+
+        sut.updateParkingDisplay(update: parking, with: data2)
+        
+        // update 3
+        let data3 = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "50", lot_type: "C", lots_available: "11")], carpark_number: "FFG", update_datetime: "12345")
+
+        sut.updateParkingDisplay(update: parking, with: data3)
+        
+        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount, 11)
+        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds, ["FFG"])
+        
+        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount, 8)
+        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds, ["DEF"])
+    }
+    
+    func test_whenHaveFirstDataAndHaveLowest_andDataIsEqualHighest_appendIdToHighest() {
+        // update 1
+        let data = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "50", lot_type: "C", lots_available: "9")], carpark_number: "ABC", update_datetime: "12345")
+        let sut = makeSUT()
+        let parking = sut.getParkingDisplay(carParkData: data)
+        sut.updateParkingDisplay(update: parking, with: data)
+
+        
+        // update 2
+        let data2 = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "50", lot_type: "C", lots_available: "8")], carpark_number: "DEF", update_datetime: "12345")
+
+        sut.updateParkingDisplay(update: parking, with: data2)
+        
+        // update 3
+        let data3 = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "50", lot_type: "C", lots_available: "9")], carpark_number: "FFG", update_datetime: "12345")
+
+        sut.updateParkingDisplay(update: parking, with: data3)
+        
+        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount, 9)
+        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds, ["ABC", "FFG"])
+        
+        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount, 8)
+        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds, ["DEF"])
+    }
+    
+    func test_whenHaveFirstDataAndHaveLowest_andDataIsEqualLowest_appendIdToLowest() {
+        // update 1
+        let data = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "50", lot_type: "C", lots_available: "9")], carpark_number: "ABC", update_datetime: "12345")
+        let sut = makeSUT()
+        let parking = sut.getParkingDisplay(carParkData: data)
+        sut.updateParkingDisplay(update: parking, with: data)
+
+        
+        // update 2
+        let data2 = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "50", lot_type: "C", lots_available: "8")], carpark_number: "DEF", update_datetime: "12345")
+
+        sut.updateParkingDisplay(update: parking, with: data2)
+        
+        // update 3
+        let data3 = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "50", lot_type: "C", lots_available: "8")], carpark_number: "FFG", update_datetime: "12345")
+
+        sut.updateParkingDisplay(update: parking, with: data3)
+        
+        XCTAssertEqual(sut.smallParkingDisplay.highestAvailableLotAmount, 9)
+        XCTAssertEqual(sut.smallParkingDisplay.highestLotIds, ["ABC"])
+        
+        XCTAssertEqual(sut.smallParkingDisplay.lowestAvailableLotAmount, 8)
+        XCTAssertEqual(sut.smallParkingDisplay.lowestLotIds, ["DEF", "FFG"])
     }
     
     func makeSUT() -> ParkingVM {

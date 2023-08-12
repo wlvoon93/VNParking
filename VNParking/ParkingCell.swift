@@ -38,6 +38,14 @@ final class ParkingCell: BSTTableViewCell {
         
         return view
     }()
+    
+    private let highestAvailableLotAmountLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.textColor = .black
+        label.text = "some label"
+        return label
+    }()
 
     internal var viewModel: ParkingDisplayable?
     
@@ -70,6 +78,7 @@ final class ParkingCell: BSTTableViewCell {
         containerView.backgroundColor = .white
         
         contentView.addSubview(containerView)
+        containerView.addSubview(highestAvailableLotAmountLabel)
         
         
         NSLayoutConstraint.activate([
@@ -78,28 +87,20 @@ final class ParkingCell: BSTTableViewCell {
             containerView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             containerView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
             containerView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
-            containerView.heightAnchor.constraint(equalToConstant: 100)
+            
+            highestAvailableLotAmountLabel.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
+            highestAvailableLotAmountLabel.topAnchor.constraint(equalTo: containerView.topAnchor),
+            highestAvailableLotAmountLabel.bottomAnchor.constraint(equalTo: containerView.bottomAnchor),
         ])
     }
 
     private func setupListeners() {
         disposeBag = DisposeBag()
         
-//        viewModel?.instalmentDetails.subscribe(onNext: { [weak self] _ in
-//            guard let strongSelf = self else { return }
-//            
-//            strongSelf.setupDetails()
-//        }).disposed(by: disposeBag)
+        viewModel?.highestAvailableLotAmount.subscribe(onNext: { [weak self] value in
+            guard let strongSelf = self, let value else { return }
+            
+            strongSelf.highestAvailableLotAmountLabel.text = "\(value)"
+        }).disposed(by: disposeBag)
     }
-//    
-//    private func setupDetails() {
-//
-//        let date = DateFormatter.convert(currentDateInString: viewModel?.instalmentDetails.value?.date ?? "")?.convertToString(dateFormat: "d MMMM yyyy")
-//        
-//        let totalAmount = viewModel?.instalmentDetails.value?.totalInstalmentAmount ?? 0
-//        let totalAmountString = PriceFormatter.format(amount: totalAmount, alwaysShowDecimal: true) ?? ""
-//        
-//        instalmentDateLabel.text = date
-//        instalmentAmountLabel.text = totalAmountString
-//    }
 }

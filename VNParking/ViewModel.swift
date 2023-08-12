@@ -20,10 +20,10 @@ public class ParkingVM: ParkingVMTypes {
     public var sectionedItems: BehaviorRelay<[ParkingSection]> = BehaviorRelay(value: [])
     public var sectionCache = [Int: ParkingSection]()
     
-    var smallParkingDisplay = BehaviorRelay<SmallParkingDisplay?>(value: nil)
-    var mediumParkingDisplay = BehaviorRelay<MediumParkingDisplay?>(value: nil)
-    var bigParkingDisplay = BehaviorRelay<BigParkingDisplay?>(value: nil)
-    var largeParkingDisplay = BehaviorRelay<LargeParkingDisplay?>(value: nil)
+    var smallParkingDisplay = BehaviorRelay<SmallParkingDisplay?>(value: SmallParkingDisplay())
+    var mediumParkingDisplay = BehaviorRelay<MediumParkingDisplay?>(value: MediumParkingDisplay())
+    var bigParkingDisplay = BehaviorRelay<BigParkingDisplay?>(value: BigParkingDisplay())
+    var largeParkingDisplay = BehaviorRelay<LargeParkingDisplay?>(value: LargeParkingDisplay())
     var displays: [(any ParkingDisplayable)?] {
         return [smallParkingDisplay.value, mediumParkingDisplay.value, bigParkingDisplay.value, largeParkingDisplay.value]
     }

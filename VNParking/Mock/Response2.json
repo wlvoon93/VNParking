@@ -2059,9 +2059,9 @@
           {
             "carpark_info": [
               {
-                "total_lots": "60",
+                "total_lots": "29",
                 "lot_type": "C",
-                "lots_available": "36"
+                "lots_available": "1"
               },
               {
                 "total_lots": "24",
@@ -2196,9 +2196,9 @@
           {
             "carpark_info": [
               {
-                "total_lots": "148",
+                "total_lots": "88",
                 "lot_type": "C",
-                "lots_available": "16"
+                "lots_available": "62"
               },
               {
                 "total_lots": "50",

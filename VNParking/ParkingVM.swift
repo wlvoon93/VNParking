@@ -47,8 +47,10 @@ public class ParkingVM: ParkingVMTypes {
         
         let dataLotsAvailable = Int(carParkData.carpark_info.first?.lots_available ?? "") ?? 0
         let display = display
-        count += 1
-        print("\(count) highest highestAvailableLotAmount \(dataLotsAvailable) lot number \(carParkData.carpark_number)")
+        
+        if let small = display as? BigParkingDisplay, dataLotsAvailable == 53 {
+            print(carParkData.carpark_number)
+        }
         
         if display.highestLotIds.value.isEmpty {
             var ids = display.highestLotIds.value
@@ -78,10 +80,6 @@ public class ParkingVM: ParkingVMTypes {
             ids.append(carParkData.carpark_number)
             display.highestLotIds.accept(ids)
         } else if let amount = display.lowestAvailableLotAmount.value,
-                 dataLotsAvailable > amount {
-            display.lowestLotIds.accept([carParkData.carpark_number])
-            display.lowestAvailableLotAmount.accept(dataLotsAvailable)
-        } else if let amount = display.lowestAvailableLotAmount.value,
                 dataLotsAvailable < amount {
             display.lowestLotIds.accept([carParkData.carpark_number])
             display.lowestAvailableLotAmount.accept(dataLotsAvailable)
@@ -110,7 +108,7 @@ public class ParkingVM: ParkingVMTypes {
         // cant update immediately as it will show gibberish
         // after done then update the real rx? use combine latest
         _ = response.items.first?.carpark_data.map { carparkData in
-            if let parkingDisplay = getParkingDisplay(carParkData: carparkData) as? SmallParkingDisplay {
+            if let parkingDisplay = getParkingDisplay(carParkData: carparkData) {
                 
                 updateParkingDisplay(update: parkingDisplay, with: carparkData)
             }

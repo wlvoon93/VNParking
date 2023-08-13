@@ -89,21 +89,27 @@ public class ParkingVM: ParkingVMTypes {
     }
     
     func getParkingData() {
-        // fetch the data, decode, update vm(rx)
         MockAPI.fileObj.getParkingAPI { response in
             if let response {
+                resetParkingDisplay()
                 updateParkingWithResponse(response: response)
-                setSection(.small(item: smallParkingDisplay.value))
-                setSection(.medium(item: mediumParkingDisplay.value))
-                setSection(.big(item: bigParkingDisplay.value))
-                setSection(.large(item: largeParkingDisplay.value))
+                
+                smallParkingDisplay.accept(smallParkingDisplay.value)
+                mediumParkingDisplay.accept(mediumParkingDisplay.value)
+                bigParkingDisplay.accept(bigParkingDisplay.value)
+                largeParkingDisplay.accept(largeParkingDisplay.value)
             }
         }
     }
     
+    func resetParkingDisplay() {
+        smallParkingDisplay.accept(SmallParkingDisplay())
+        mediumParkingDisplay.accept(MediumParkingDisplay())
+        bigParkingDisplay.accept(BigParkingDisplay())
+        largeParkingDisplay.accept(LargeParkingDisplay())
+    }
+    
     func updateParkingWithResponse(response: ParkingResponse) {
-        // cant update immediately as it will show gibberish
-        // after done then update the real rx? use combine latest
         _ = response.items.first?.carpark_data.map { carparkData in
             if let parkingDisplay = getParkingDisplay(carParkData: carparkData) {
                 

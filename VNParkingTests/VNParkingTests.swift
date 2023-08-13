@@ -280,6 +280,41 @@ final class VNParkingTests: XCTestCase {
         XCTAssertEqual(sut.smallParkingDisplay.value?.lowestLotIds.value, ["DEF", "FFG"])
     }
     
+    func test_whenResetParkingDisplay_clearAllParkingDisplay() {
+        let sut = makeSUT()
+        sut.mediumParkingDisplay.value?.highestAvailableLotAmount.accept(197)
+        sut.mediumParkingDisplay.value?.highestLotIds.accept(["VB02"])
+        sut.mediumParkingDisplay.value?.lowestAvailableLotAmount.accept(10)
+        sut.mediumParkingDisplay.value?.lowestLotIds.accept(["VBB02"])
+        
+        sut.largeParkingDisplay.value?.highestAvailableLotAmount.accept(200)
+        sut.largeParkingDisplay.value?.highestLotIds.accept(["VC02"])
+        sut.largeParkingDisplay.value?.lowestAvailableLotAmount.accept(100)
+        sut.largeParkingDisplay.value?.lowestLotIds.accept(["VCB02"])
+        
+        XCTAssertEqual(sut.mediumParkingDisplay.value?.highestAvailableLotAmount.value, 197)
+        XCTAssertEqual(sut.mediumParkingDisplay.value?.highestLotIds.value, ["VB02"])
+        XCTAssertEqual(sut.mediumParkingDisplay.value?.lowestAvailableLotAmount.value, 10)
+        XCTAssertEqual(sut.mediumParkingDisplay.value?.lowestLotIds.value, ["VBB02"])
+        
+        XCTAssertEqual(sut.largeParkingDisplay.value?.highestAvailableLotAmount.value, 200)
+        XCTAssertEqual(sut.largeParkingDisplay.value?.highestLotIds.value, ["VC02"])
+        XCTAssertEqual(sut.largeParkingDisplay.value?.lowestAvailableLotAmount.value, 100)
+        XCTAssertEqual(sut.largeParkingDisplay.value?.lowestLotIds.value, ["VCB02"])
+        
+        sut.resetParkingDisplay()
+        
+        XCTAssertEqual(sut.mediumParkingDisplay.value?.highestAvailableLotAmount.value, nil)
+        XCTAssertEqual(sut.mediumParkingDisplay.value?.highestLotIds.value, [])
+        XCTAssertEqual(sut.mediumParkingDisplay.value?.lowestAvailableLotAmount.value, nil)
+        XCTAssertEqual(sut.mediumParkingDisplay.value?.lowestLotIds.value, [])
+        
+        XCTAssertEqual(sut.largeParkingDisplay.value?.highestAvailableLotAmount.value, nil)
+        XCTAssertEqual(sut.largeParkingDisplay.value?.highestLotIds.value, [])
+        XCTAssertEqual(sut.largeParkingDisplay.value?.lowestAvailableLotAmount.value, nil)
+        XCTAssertEqual(sut.largeParkingDisplay.value?.lowestLotIds.value, [])
+    }
+    
     func test_integration_whenHaveMediumOneHighestTwoLowest_showMediumOneHighestTwoLowest() {
         let carparkInfo1: [CarparkInfo] = [.init(total_lots: "130", lot_type: "C", lots_available: "197"),
                                            .init(total_lots: "110", lot_type: "B", lots_available: "100")]

@@ -17,13 +17,13 @@ public enum ParkingSection: SectionModelType {
     public var items: [Any] {
         switch self {
         case .small(let item):
-            return [item]
+            return item == nil ? [] : [item!]
         case .medium(let item):
-            return [item]
+            return item == nil ? [] : [item!]
         case .big(let item):
-            return [item]
+            return item == nil ? [] : [item!]
         case .large(let item):
-            return [item]
+            return item == nil ? [] : [item!]
         }
     }
     
@@ -93,13 +93,13 @@ extension ParkingSection: RelativeOrder {
     public var sectionOrder: Int {
         switch self {
         case .small:
-            return 1
+            return 0
         case .medium:
-            return 2
+            return 1
         case .big:
-            return 3
+            return 2
         case .large:
-            return 4
+            return 3
         }
     }
 }

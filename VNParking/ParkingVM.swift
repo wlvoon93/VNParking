@@ -45,12 +45,9 @@ public class ParkingVM: ParkingVMTypes {
     
     func updateParkingDisplay(update display: ParkingDisplayable, with carParkData: ParkingResponse.ParkingItem.CarparkData) {
         
-        let dataLotsAvailable = Int(carParkData.carpark_info.first?.lots_available ?? "") ?? 0
+        let dataLotsAvailable = carParkData.carpark_info.compactMap { Int($0.lots_available) }
+                                                        .reduce(0, +)
         let display = display
-        
-        if let small = display as? BigParkingDisplay, dataLotsAvailable == 53 {
-            print(carParkData.carpark_number)
-        }
         
         if display.highestLotIds.value.isEmpty {
             var ids = display.highestLotIds.value

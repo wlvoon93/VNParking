@@ -9,14 +9,17 @@ import Foundation
 import RxRelay
 
 public protocol ParkingDisplayable {
-    var highestAvailableLotAmount: BehaviorRelay<Int?> { get set }
-    var highestLotIds: BehaviorRelay<[String]> { get set }
+    var isShowSeparator: BehaviorRelay<Bool> { get }
+    var highestAvailableLotAmount: BehaviorRelay<Int?> { get }
+    var highestLotIds: BehaviorRelay<[String]> { get }
     
-    var lowestAvailableLotAmount: BehaviorRelay<Int?> { get set }
-    var lowestLotIds: BehaviorRelay<[String]> { get set }
+    var lowestAvailableLotAmount: BehaviorRelay<Int?> { get }
+    var lowestLotIds: BehaviorRelay<[String]> { get }
 }
 
 public class SmallParkingDisplay: ParkingDisplayable {
+    public var isShowSeparator = BehaviorRelay<Bool>(value: true)
+    
     public var highestAvailableLotAmount = BehaviorRelay<Int?>(value: nil)
     public var highestLotIds = BehaviorRelay<[String]>(value: [])
     
@@ -25,6 +28,8 @@ public class SmallParkingDisplay: ParkingDisplayable {
 }
 
 public class MediumParkingDisplay: ParkingDisplayable {
+    public var isShowSeparator = BehaviorRelay<Bool>(value: true)
+    
     public var highestAvailableLotAmount = BehaviorRelay<Int?>(value: nil)
     public var highestLotIds = BehaviorRelay<[String]>(value: [])
     
@@ -33,6 +38,8 @@ public class MediumParkingDisplay: ParkingDisplayable {
 }
 
 public class BigParkingDisplay: ParkingDisplayable {
+    public var isShowSeparator = BehaviorRelay<Bool>(value: true)
+    
     public var highestAvailableLotAmount = BehaviorRelay<Int?>(value: nil)
     public var highestLotIds = BehaviorRelay<[String]>(value: [])
     
@@ -41,6 +48,8 @@ public class BigParkingDisplay: ParkingDisplayable {
 }
 
 public class LargeParkingDisplay: ParkingDisplayable {
+    public var isShowSeparator = BehaviorRelay<Bool>(value: true)
+    
     public var highestAvailableLotAmount = BehaviorRelay<Int?>(value: nil)
     public var highestLotIds = BehaviorRelay<[String]>(value: [])
     

@@ -112,7 +112,6 @@ public class ParkingVM: ParkingVMTypes {
     func updateParkingWithResponse(response: ParkingResponse) {
         _ = response.items.first?.carpark_data.map { carparkData in
             if let parkingDisplay = getParkingDisplay(carParkData: carparkData) {
-                
                 updateParkingDisplay(update: parkingDisplay, with: carparkData)
             }
         }

@@ -52,7 +52,7 @@ final class ParkingCell: BSTTableViewCell {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textColor = .black
-        label.font = .systemFont(ofSize: 14.0, weight: .bold)
+        label.font = .systemFont(ofSize: 18.0, weight: .bold)
         return label
     }()
     
@@ -109,6 +109,7 @@ final class ParkingCell: BSTTableViewCell {
     
     public override func prepareForReuse() {
         super.prepareForReuse()
+        separatorView.isHidden = false
     }
 
     public override func configureWith(value: Any) {
@@ -122,7 +123,7 @@ final class ParkingCell: BSTTableViewCell {
             titleLabel.text = "MEDIUM"
         } else if vm as? BigParkingDisplay != nil {
             titleLabel.text = "BIG"
-        } else {
+        } else if vm as? LargeParkingDisplay != nil{
             titleLabel.text = "LARGE"
         }
     }
@@ -144,6 +145,7 @@ final class ParkingCell: BSTTableViewCell {
         containerStackView.addArrangedSubview(lowestAvailableLotAmountLabel)
         containerStackView.addArrangedSubview(lowestLotNumbersLabel)
         
+        containerStackView.setCustomSpacing(5, after: titleLabel)
         containerStackView.setCustomSpacing(10, after: highestLotNumbersLabel)
         
         NSLayoutConstraint.activate([
@@ -167,6 +169,10 @@ final class ParkingCell: BSTTableViewCell {
 
     private func setupListeners() {
         disposeBag = DisposeBag()
+        
+        viewModel?.isShowSeparator.subscribe(onNext: { [weak self] value in
+            self?.separatorView.isHidden = value ? false : true
+        }).disposed(by: disposeBag)
         
         viewModel?.highestAvailableLotAmount.subscribe(onNext: { [weak self] value in
             guard let strongSelf = self, let value else { return }

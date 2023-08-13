@@ -57,8 +57,14 @@ extension ParkingSection: TableViewDataSource {
         return RxTableViewSectionedReloadDataSource<ParkingSection>(configureCell: { (_, tableView, indexPath, viewModel) -> UITableViewCell in
             var cell: UITableViewCell!
             
+            if let vm = viewModel as? ParkingDisplayable,
+               indexPath.section == Section.allCases.count-1  {
+                vm.isShowSeparator.accept(false)
+            }
+            
             if let viewModel = viewModel as? SmallParkingDisplay {
                 let newCell = tableView.dequeueCell(ParkingCell.self, at: indexPath)
+                
                 newCell.configureWith(value: viewModel)
                 
                 cell = newCell

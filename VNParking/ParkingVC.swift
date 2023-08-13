@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ParkingVC.swift
 //  VNParking
 //
 //  Created by Voon Wei Liang on 06/08/2023.
@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 import RxDataSources
 
-class ViewController: UIViewController {
+class ParkingVC: UIViewController {
     class AutomaticHeightTableView: UITableView {
         
         override var contentSize: CGSize {
@@ -48,6 +48,7 @@ class ViewController: UIViewController {
         
         setupView()
         setupListeners()
+        viewModel.getParkingData()
     }
 
     func setupView() {
@@ -71,8 +72,6 @@ class ViewController: UIViewController {
         viewModel.sectionedItems
             .bind(to: tableView.rx.items(dataSource: viewModel.dataSource))
             .disposed(by: disposeBag)
-        
-        viewModel.setSection(.small(item: .init()))
     }
 }
 

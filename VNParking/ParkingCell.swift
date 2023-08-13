@@ -46,7 +46,7 @@ final class ParkingCell: BSTTableViewCell {
         label.text = "some label"
         return label
     }()
-
+    
     internal var viewModel: ParkingDisplayable?
     
     // MARK: - Initializer and Lifecycle Methods -

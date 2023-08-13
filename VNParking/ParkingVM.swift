@@ -19,6 +19,7 @@ public class ParkingVM: ParkingVMTypes {
     public var dataSource: RxTableViewSectionedReloadDataSource<Section> = Section.generateDataSource()
     public var sectionedItems: BehaviorRelay<[ParkingSection]> = BehaviorRelay(value: [])
     public var sectionCache = [Int: ParkingSection]()
+    var count = 0
     
     var smallParkingDisplay = BehaviorRelay<SmallParkingDisplay?>(value: SmallParkingDisplay())
     var mediumParkingDisplay = BehaviorRelay<MediumParkingDisplay?>(value: MediumParkingDisplay())
@@ -46,6 +47,8 @@ public class ParkingVM: ParkingVMTypes {
         
         let dataLotsAvailable = Int(carParkData.carpark_info.first?.lots_available ?? "") ?? 0
         let display = display
+        count += 1
+        print("\(count) highest highestAvailableLotAmount \(dataLotsAvailable) lot number \(carParkData.carpark_number)")
         
         if display.highestLotIds.value.isEmpty {
             var ids = display.highestLotIds.value
@@ -87,6 +90,30 @@ public class ParkingVM: ParkingVMTypes {
             var ids = display.lowestLotIds.value
             ids.append(carParkData.carpark_number)
             display.lowestLotIds.accept(ids)
+        }
+    }
+    
+    func getParkingData() {
+        // fetch the data, decode, update vm(rx)
+        MockAPI.fileObj.getParkingAPI { response in
+            if let response {
+                updateParkingWithResponse(response: response)
+                setSection(.small(item: smallParkingDisplay.value))
+                setSection(.medium(item: mediumParkingDisplay.value))
+                setSection(.big(item: bigParkingDisplay.value))
+                setSection(.large(item: largeParkingDisplay.value))
+            }
+        }
+    }
+    
+    func updateParkingWithResponse(response: ParkingResponse) {
+        // cant update immediately as it will show gibberish
+        // after done then update the real rx? use combine latest
+        _ = response.items.first?.carpark_data.map { carparkData in
+            if let parkingDisplay = getParkingDisplay(carParkData: carparkData) as? SmallParkingDisplay {
+                
+                updateParkingDisplay(update: parkingDisplay, with: carparkData)
+            }
         }
     }
 }

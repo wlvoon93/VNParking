@@ -250,14 +250,24 @@ final class VNParkingTests: XCTestCase {
         XCTAssertEqual(sut.smallParkingDisplay.value?.lowestLotIds.value, ["DEF", "FFG"])
     }
     
-    // 
+    func test_integration_whenHaveMediumOneHighestThreeLowest_showMediumOneHighestThreeLowest() {
+        let data1 = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "130", lot_type: "C", lots_available: "297")], carpark_number: "VB02", update_datetime: "12345")
+        let data2 = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "104", lot_type: "C", lots_available: "0")], carpark_number: "XE01", update_datetime: "12345")
+        let data3 = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "144", lot_type: "C", lots_available: "0")], carpark_number: "LP01", update_datetime: "12345")
+        let data4 = ParkingResponse.ParkingItem.CarparkData.init(carpark_info: [.init(total_lots: "310", lot_type: "C", lots_available: "0")], carpark_number: "FFG", update_datetime: "12345")
+        let parkingItem = ParkingResponse.ParkingItem.init(timestamp: "2023-08-06T09:23:27+08:00", carpark_data: [data1, data2, data3, data4])
+        let parkingResponse = ParkingResponse.init(items: [parkingItem])
+        let sut = makeSUT()
+        sut.updateParkingWithResponse(response: parkingResponse)
+        
+        XCTAssertEqual(sut.mediumParkingDisplay.value?.highestAvailableLotAmount.value, 297)
+        XCTAssertEqual(sut.mediumParkingDisplay.value?.highestLotIds.value, ["VB02"])
+        XCTAssertEqual(sut.mediumParkingDisplay.value?.lowestAvailableLotAmount.value, 0)
+        XCTAssertEqual(sut.mediumParkingDisplay.value?.lowestLotIds.value, ["XE01", "LP01"])
+    }
     
     func makeSUT() -> ParkingVM {
         let parkingVM = ParkingVM()
-//        parkingVM.smallParkingDisplay.accept(SmallParkingDisplay())
-//        parkingVM.mediumParkingDisplay = MediumParkingDisplay()
-//        parkingVM.bigParkingDisplay = BigParkingDisplay()
-//        parkingVM.largeParkingDisplay = LargeParkingDisplay()
         return parkingVM
     }
 }

@@ -1,0 +1,4332 @@
+{
+  "items": [
+    {
+      "timestamp": "2023-08-06T09:23:27+08:00",
+      "carpark_data": [
+          {
+            "carpark_info": [
+              {
+                "total_lots": "350",
+                "lot_type": "C",
+                "lots_available": "183"
+              }
+            ],
+            "carpark_number": "W780",
+            "update_datetime": "2023-08-06T09:20:32"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "486",
+                "lot_type": "C",
+                "lots_available": "346"
+              }
+            ],
+            "carpark_number": "W101",
+            "update_datetime": "2023-08-06T09:21:01"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "272",
+                "lot_type": "C",
+                "lots_available": "72"
+              }
+            ],
+            "carpark_number": "W13",
+            "update_datetime": "2023-08-06T09:20:34"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "291",
+                "lot_type": "C",
+                "lots_available": "129"
+              }
+            ],
+            "carpark_number": "W48",
+            "update_datetime": "2023-08-06T09:20:38"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "452",
+                "lot_type": "C",
+                "lots_available": "260"
+              }
+            ],
+            "carpark_number": "W102",
+            "update_datetime": "2023-08-06T09:20:36"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "50",
+                "lot_type": "C",
+                "lots_available": "11"
+              }
+            ],
+            "carpark_number": "W37",
+            "update_datetime": "2023-08-06T09:20:32"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "285",
+                "lot_type": "C",
+                "lots_available": "123"
+              }
+            ],
+            "carpark_number": "W52",
+            "update_datetime": "2023-08-06T09:20:54"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "352",
+                "lot_type": "C",
+                "lots_available": "208"
+              }
+            ],
+            "carpark_number": "W64",
+            "update_datetime": "2023-08-06T09:20:36"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "365",
+                "lot_type": "C",
+                "lots_available": "83"
+              }
+            ],
+            "carpark_number": "W17",
+            "update_datetime": "2023-08-06T09:20:46"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "563",
+                "lot_type": "C",
+                "lots_available": "207"
+              }
+            ],
+            "carpark_number": "W18",
+            "update_datetime": "2023-08-06T09:20:34"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "382",
+                "lot_type": "C",
+                "lots_available": "236"
+              }
+            ],
+            "carpark_number": "W58",
+            "update_datetime": "2023-08-06T09:20:54"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "355",
+                "lot_type": "C",
+                "lots_available": "181"
+              }
+            ],
+            "carpark_number": "W5",
+            "update_datetime": "2023-08-06T09:20:54"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "213",
+                "lot_type": "C",
+                "lots_available": "96"
+              }
+            ],
+            "carpark_number": "W5M",
+            "update_datetime": "2023-08-06T09:21:01"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "628",
+                "lot_type": "C",
+                "lots_available": "253"
+              }
+            ],
+            "carpark_number": "W23",
+            "update_datetime": "2023-08-06T09:20:57"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "304",
+                "lot_type": "C",
+                "lots_available": "71"
+              }
+            ],
+            "carpark_number": "W40",
+            "update_datetime": "2023-08-06T09:21:01"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "833",
+                "lot_type": "C",
+                "lots_available": "423"
+              }
+            ],
+            "carpark_number": "W49",
+            "update_datetime": "2023-08-06T09:20:42"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "254",
+                "lot_type": "C",
+                "lots_available": "201"
+              }
+            ],
+            "carpark_number": "W50",
+            "update_datetime": "2021-04-23T11:38:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "304",
+                "lot_type": "C",
+                "lots_available": "242"
+              }
+            ],
+            "carpark_number": "W51",
+            "update_datetime": "2021-04-23T11:38:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "539",
+                "lot_type": "C",
+                "lots_available": "226"
+              }
+            ],
+            "carpark_number": "W36",
+            "update_datetime": "2023-08-06T09:20:35"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "116",
+                "lot_type": "C",
+                "lots_available": "47"
+              }
+            ],
+            "carpark_number": "W10",
+            "update_datetime": "2023-08-06T09:20:54"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "57",
+                "lot_type": "C",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "W6",
+            "update_datetime": "2023-08-06T09:21:01"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "275",
+                "lot_type": "C",
+                "lots_available": "97"
+              }
+            ],
+            "carpark_number": "W181",
+            "update_datetime": "2023-08-06T09:20:32"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "328",
+                "lot_type": "C",
+                "lots_available": "57"
+              }
+            ],
+            "carpark_number": "W14",
+            "update_datetime": "2023-08-06T09:21:56"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "412",
+                "lot_type": "C",
+                "lots_available": "179"
+              }
+            ],
+            "carpark_number": "PM6",
+            "update_datetime": "2023-08-06T09:22:17"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "398",
+                "lot_type": "C",
+                "lots_available": "193"
+              }
+            ],
+            "carpark_number": "PM17",
+            "update_datetime": "2023-08-06T09:22:34"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "428",
+                "lot_type": "C",
+                "lots_available": "222"
+              }
+            ],
+            "carpark_number": "PM14",
+            "update_datetime": "2023-08-06T09:22:40"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "412",
+                "lot_type": "C",
+                "lots_available": "186"
+              }
+            ],
+            "carpark_number": "PM29",
+            "update_datetime": "2023-08-06T09:22:04"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "245",
+                "lot_type": "C",
+                "lots_available": "131"
+              }
+            ],
+            "carpark_number": "PM16",
+            "update_datetime": "2023-08-06T09:22:29"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "247",
+                "lot_type": "C",
+                "lots_available": "110"
+              }
+            ],
+            "carpark_number": "PM18",
+            "update_datetime": "2023-08-06T09:22:22"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "227",
+                "lot_type": "C",
+                "lots_available": "93"
+              }
+            ],
+            "carpark_number": "PM11",
+            "update_datetime": "2023-08-06T09:22:06"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "239",
+                "lot_type": "C",
+                "lots_available": "93"
+              }
+            ],
+            "carpark_number": "PM7",
+            "update_datetime": "2023-08-06T09:21:22"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "435",
+                "lot_type": "C",
+                "lots_available": "152"
+              }
+            ],
+            "carpark_number": "PM13",
+            "update_datetime": "2023-08-06T09:22:40"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "522",
+                "lot_type": "C",
+                "lots_available": "196"
+              }
+            ],
+            "carpark_number": "PM45",
+            "update_datetime": "2023-08-06T09:22:31"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "359",
+                "lot_type": "C",
+                "lots_available": "129"
+              }
+            ],
+            "carpark_number": "PM41",
+            "update_datetime": "2023-08-06T09:22:23"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "301",
+                "lot_type": "C",
+                "lots_available": "83"
+              }
+            ],
+            "carpark_number": "PR1",
+            "update_datetime": "2023-08-06T09:21:45"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "437",
+                "lot_type": "C",
+                "lots_available": "325"
+              }
+            ],
+            "carpark_number": "PM19",
+            "update_datetime": "2023-08-06T09:22:18"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "299",
+                "lot_type": "C",
+                "lots_available": "282"
+              }
+            ],
+            "carpark_number": "JM33",
+            "update_datetime": "2023-08-06T09:22:19"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "8",
+                "lot_type": "C",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "JS33",
+            "update_datetime": "2023-08-06T09:22:19"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "267",
+                "lot_type": "C",
+                "lots_available": "94"
+              }
+            ],
+            "carpark_number": "PM40",
+            "update_datetime": "2023-08-06T09:21:46"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "293",
+                "lot_type": "C",
+                "lots_available": "134"
+              }
+            ],
+            "carpark_number": "PM37",
+            "update_datetime": "2020-11-02T10:04:43"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "671",
+                "lot_type": "C",
+                "lots_available": "297"
+              }
+            ],
+            "carpark_number": "PM36",
+            "update_datetime": "2023-08-06T09:22:43"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "472",
+                "lot_type": "C",
+                "lots_available": "297"
+              }
+            ],
+            "carpark_number": "SK93",
+            "update_datetime": "2023-08-06T09:20:32"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "360",
+                "lot_type": "C",
+                "lots_available": "207"
+              }
+            ],
+            "carpark_number": "SK2",
+            "update_datetime": "2023-08-06T09:20:54"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "867",
+                "lot_type": "C",
+                "lots_available": "560"
+              }
+            ],
+            "carpark_number": "SK60",
+            "update_datetime": "2023-08-06T09:20:43"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "1358",
+                "lot_type": "C",
+                "lots_available": "905"
+              }
+            ],
+            "carpark_number": "SK15",
+            "update_datetime": "2023-08-06T09:20:44"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "677",
+                "lot_type": "C",
+                "lots_available": "539"
+              }
+            ],
+            "carpark_number": "SK17",
+            "update_datetime": "2020-12-14T09:35:53"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "354",
+                "lot_type": "C",
+                "lots_available": "187"
+              }
+            ],
+            "carpark_number": "SK12",
+            "update_datetime": "2023-08-06T09:20:43"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "75",
+                "lot_type": "C",
+                "lots_available": "20"
+              }
+            ],
+            "carpark_number": "W4",
+            "update_datetime": "2023-08-06T09:20:57"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "507",
+                "lot_type": "C",
+                "lots_available": "375"
+              }
+            ],
+            "carpark_number": "SK22",
+            "update_datetime": "2023-08-06T09:20:38"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "653",
+                "lot_type": "C",
+                "lots_available": "431"
+              }
+            ],
+            "carpark_number": "SK21",
+            "update_datetime": "2023-08-06T09:20:49"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "355",
+                "lot_type": "C",
+                "lots_available": "171"
+              }
+            ],
+            "carpark_number": "SK13",
+            "update_datetime": "2023-08-06T09:21:00"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "473",
+                "lot_type": "C",
+                "lots_available": "362"
+              }
+            ],
+            "carpark_number": "SK6",
+            "update_datetime": "2023-08-06T09:20:44"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "2064",
+                "lot_type": "C",
+                "lots_available": "1790"
+              }
+            ],
+            "carpark_number": "CK52",
+            "update_datetime": "2023-08-06T09:22:54"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "314",
+                "lot_type": "C",
+                "lots_available": "194"
+              }
+            ],
+            "carpark_number": "P1",
+            "update_datetime": "2023-08-06T09:21:01"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "293",
+                "lot_type": "C",
+                "lots_available": "144"
+              }
+            ],
+            "carpark_number": "P2",
+            "update_datetime": "2023-08-06T09:20:38"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "658",
+                "lot_type": "C",
+                "lots_available": "387"
+              }
+            ],
+            "carpark_number": "P3",
+            "update_datetime": "2023-08-06T09:21:01"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "411",
+                "lot_type": "C",
+                "lots_available": "188"
+              }
+            ],
+            "carpark_number": "P4",
+            "update_datetime": "2023-08-06T09:20:41"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "520",
+                "lot_type": "C",
+                "lots_available": "266"
+              }
+            ],
+            "carpark_number": "P5",
+            "update_datetime": "2023-08-06T09:20:42"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "4",
+                "lot_type": "C",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "P5L",
+            "update_datetime": "2020-04-01T02:35:29"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "547",
+                "lot_type": "C",
+                "lots_available": "311"
+              }
+            ],
+            "carpark_number": "P6",
+            "update_datetime": "2023-08-06T09:20:52"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "6",
+                "lot_type": "C",
+                "lots_available": "6"
+              }
+            ],
+            "carpark_number": "P6L",
+            "update_datetime": "2020-04-01T02:35:29"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "741",
+                "lot_type": "C",
+                "lots_available": "504"
+              }
+            ],
+            "carpark_number": "PL14",
+            "update_datetime": "2023-08-06T09:20:42"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "500",
+                "lot_type": "C",
+                "lots_available": "319"
+              }
+            ],
+            "carpark_number": "PL15",
+            "update_datetime": "2023-08-06T09:20:43"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "283",
+                "lot_type": "C",
+                "lots_available": "147"
+              }
+            ],
+            "carpark_number": "PL25",
+            "update_datetime": "2023-08-06T09:20:43"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "298",
+                "lot_type": "C",
+                "lots_available": "114"
+              }
+            ],
+            "carpark_number": "PL29",
+            "update_datetime": "2023-08-06T09:20:59"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "204",
+                "lot_type": "C",
+                "lots_available": "67"
+              }
+            ],
+            "carpark_number": "PL30",
+            "update_datetime": "2023-08-06T09:20:36"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "222",
+                "lot_type": "C",
+                "lots_available": "77"
+              }
+            ],
+            "carpark_number": "PL31",
+            "update_datetime": "2023-08-06T09:20:33"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "203",
+                "lot_type": "C",
+                "lots_available": "84"
+              }
+            ],
+            "carpark_number": "PL32",
+            "update_datetime": "2023-08-06T09:20:35"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "48",
+                "lot_type": "C",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "PL33",
+            "update_datetime": "2023-08-06T09:20:44"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "430",
+                "lot_type": "C",
+                "lots_available": "202"
+              }
+            ],
+            "carpark_number": "PL39",
+            "update_datetime": "2023-08-06T09:20:59"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "243",
+                "lot_type": "C",
+                "lots_available": "56"
+              }
+            ],
+            "carpark_number": "PL40",
+            "update_datetime": "2023-08-06T09:20:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "458",
+                "lot_type": "C",
+                "lots_available": "194"
+              }
+            ],
+            "carpark_number": "PL41",
+            "update_datetime": "2023-08-06T09:20:35"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "598",
+                "lot_type": "C",
+                "lots_available": "247"
+              }
+            ],
+            "carpark_number": "PL42",
+            "update_datetime": "2023-08-06T09:20:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "55",
+                "lot_type": "C",
+                "lots_available": "23"
+              }
+            ],
+            "carpark_number": "PL44",
+            "update_datetime": "2023-08-06T09:20:52"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "354",
+                "lot_type": "C",
+                "lots_available": "104"
+              }
+            ],
+            "carpark_number": "PL45",
+            "update_datetime": "2023-08-06T09:20:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "428",
+                "lot_type": "C",
+                "lots_available": "107"
+              }
+            ],
+            "carpark_number": "PL46",
+            "update_datetime": "2023-08-06T09:20:37"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "476",
+                "lot_type": "C",
+                "lots_available": "183"
+              }
+            ],
+            "carpark_number": "PL48",
+            "update_datetime": "2023-08-06T09:20:58"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "175",
+                "lot_type": "C",
+                "lots_available": "53"
+              }
+            ],
+            "carpark_number": "J10",
+            "update_datetime": "2023-08-06T09:20:24"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "129",
+                "lot_type": "C",
+                "lots_available": "52"
+              }
+            ],
+            "carpark_number": "J11",
+            "update_datetime": "2023-08-06T09:20:39"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "433",
+                "lot_type": "C",
+                "lots_available": "265"
+              }
+            ],
+            "carpark_number": "CK32",
+            "update_datetime": "2023-08-06T09:22:49"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "553",
+                "lot_type": "C",
+                "lots_available": "340"
+              }
+            ],
+            "carpark_number": "BJ51",
+            "update_datetime": "2023-08-06T09:22:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "319",
+                "lot_type": "C",
+                "lots_available": "167"
+              }
+            ],
+            "carpark_number": "BJ52",
+            "update_datetime": "2023-08-06T09:22:56"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "407",
+                "lot_type": "C",
+                "lots_available": "328"
+              },
+              {
+                "total_lots": "99",
+                "lot_type": "Y",
+                "lots_available": "99"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              }
+            ],
+            "carpark_number": "SK25",
+            "update_datetime": "2023-08-06T09:21:34"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "430",
+                "lot_type": "C",
+                "lots_available": "361"
+              },
+              {
+                "total_lots": "56",
+                "lot_type": "Y",
+                "lots_available": "56"
+              },
+              {
+                "total_lots": "10",
+                "lot_type": "H",
+                "lots_available": "10"
+              }
+            ],
+            "carpark_number": "SK26",
+            "update_datetime": "2023-08-06T09:21:34"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "528",
+                "lot_type": "C",
+                "lots_available": "432"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "100",
+                "lot_type": "Y",
+                "lots_available": "40"
+              }
+            ],
+            "carpark_number": "SK32",
+            "update_datetime": "2023-08-06T09:19:46"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "546",
+                "lot_type": "C",
+                "lots_available": "535"
+              },
+              {
+                "total_lots": "10",
+                "lot_type": "H",
+                "lots_available": "10"
+              },
+              {
+                "total_lots": "112",
+                "lot_type": "Y",
+                "lots_available": "10"
+              }
+            ],
+            "carpark_number": "SK33",
+            "update_datetime": "2023-08-06T09:19:46"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "817",
+                "lot_type": "C",
+                "lots_available": "307"
+              }
+            ],
+            "carpark_number": "HG11",
+            "update_datetime": "2023-08-06T09:20:23"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "366",
+                "lot_type": "C",
+                "lots_available": "178"
+              }
+            ],
+            "carpark_number": "PL68",
+            "update_datetime": "2023-08-06T09:22:45"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "699",
+                "lot_type": "C",
+                "lots_available": "352"
+              }
+            ],
+            "carpark_number": "PL69",
+            "update_datetime": "2023-08-06T09:22:11"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "277",
+                "lot_type": "C",
+                "lots_available": "121"
+              },
+              {
+                "total_lots": "141",
+                "lot_type": "Y",
+                "lots_available": "34"
+              },
+              {
+                "total_lots": "100",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "MLM",
+            "update_datetime": "2023-08-06T09:20:39"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "33",
+                "lot_type": "C",
+                "lots_available": "12"
+              }
+            ],
+            "carpark_number": "CR2",
+            "update_datetime": "2023-08-06T09:21:28"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "30",
+                "lot_type": "C",
+                "lots_available": "1"
+              }
+            ],
+            "carpark_number": "CR3",
+            "update_datetime": "2023-08-06T09:21:28"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "483",
+                "lot_type": "C",
+                "lots_available": "227"
+              }
+            ],
+            "carpark_number": "W57",
+            "update_datetime": "2023-08-06T09:21:44"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "82",
+                "lot_type": "C",
+                "lots_available": "6"
+              }
+            ],
+            "carpark_number": "BE36",
+            "update_datetime": "2023-08-06T09:20:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "402",
+                "lot_type": "C",
+                "lots_available": "189"
+              }
+            ],
+            "carpark_number": "BE37",
+            "update_datetime": "2023-08-06T09:20:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "31",
+                "lot_type": "C",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "BE38",
+            "update_datetime": "2023-08-06T09:20:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "852",
+                "lot_type": "C",
+                "lots_available": "517"
+              }
+            ],
+            "carpark_number": "BE42",
+            "update_datetime": "2023-08-06T09:20:54"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "119",
+                "lot_type": "C",
+                "lots_available": "27"
+              }
+            ],
+            "carpark_number": "BE7",
+            "update_datetime": "2023-08-06T09:20:28"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "421",
+                "lot_type": "C",
+                "lots_available": "218"
+              }
+            ],
+            "carpark_number": "SE13",
+            "update_datetime": "2023-08-06T09:20:44"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "674",
+                "lot_type": "C",
+                "lots_available": "283"
+              }
+            ],
+            "carpark_number": "SE16",
+            "update_datetime": "2023-08-06T09:20:54"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "89",
+                "lot_type": "C",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "SM1",
+            "update_datetime": "2023-08-06T09:20:43"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "149",
+                "lot_type": "C",
+                "lots_available": "95"
+              }
+            ],
+            "carpark_number": "SM3",
+            "update_datetime": "2023-08-06T09:20:38"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "33",
+                "lot_type": "C",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "10",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "19",
+                "lot_type": "Y",
+                "lots_available": "14"
+              }
+            ],
+            "carpark_number": "JB3",
+            "update_datetime": "2023-08-06T09:15:02"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "147",
+                "lot_type": "C",
+                "lots_available": "93"
+              },
+              {
+                "total_lots": "37",
+                "lot_type": "Y",
+                "lots_available": "29"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              }
+            ],
+            "carpark_number": "JB4",
+            "update_datetime": "2023-08-06T09:18:21"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "95",
+                "lot_type": "C",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "43",
+                "lot_type": "Y",
+                "lots_available": "34"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "K2",
+            "update_datetime": "2023-08-06T09:17:06"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "73",
+                "lot_type": "C",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "12",
+                "lot_type": "Y",
+                "lots_available": "3"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              }
+            ],
+            "carpark_number": "K2T",
+            "update_datetime": "2023-08-06T09:17:06"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "177",
+                "lot_type": "C",
+                "lots_available": "80"
+              },
+              {
+                "total_lots": "118",
+                "lot_type": "Y",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "1",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "KM2",
+            "update_datetime": "2023-08-06T09:18:49"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "535",
+                "lot_type": "C",
+                "lots_available": "367"
+              },
+              {
+                "total_lots": "85",
+                "lot_type": "Y",
+                "lots_available": "62"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "KM3",
+            "update_datetime": "2023-08-06T09:17:06"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "269",
+                "lot_type": "C",
+                "lots_available": "262"
+              }
+            ],
+            "carpark_number": "TRS",
+            "update_datetime": "2021-04-06T10:02:46"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "290",
+                "lot_type": "C",
+                "lots_available": "185"
+              },
+              {
+                "total_lots": "89",
+                "lot_type": "Y",
+                "lots_available": "59"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "ACM",
+            "update_datetime": "2023-08-06T09:15:11"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "792",
+                "lot_type": "C",
+                "lots_available": "426"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "359",
+                "lot_type": "Y",
+                "lots_available": "250"
+              }
+            ],
+            "carpark_number": "GE1A",
+            "update_datetime": "2023-08-06T09:15:11"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "50",
+                "lot_type": "C",
+                "lots_available": "6"
+              },
+              {
+                "total_lots": "10",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "17",
+                "lot_type": "Y",
+                "lots_available": "7"
+              }
+            ],
+            "carpark_number": "GE1F",
+            "update_datetime": "2023-08-06T09:12:13"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "45",
+                "lot_type": "C",
+                "lots_available": "16"
+              },
+              {
+                "total_lots": "10",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "20",
+                "lot_type": "Y",
+                "lots_available": "1"
+              }
+            ],
+            "carpark_number": "GE1G",
+            "update_datetime": "2023-08-06T09:15:11"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "194",
+                "lot_type": "C",
+                "lots_available": "85"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "62",
+                "lot_type": "Y",
+                "lots_available": "44"
+              }
+            ],
+            "carpark_number": "GE2",
+            "update_datetime": "2023-08-06T09:12:58"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "355",
+                "lot_type": "C",
+                "lots_available": "171"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "147",
+                "lot_type": "Y",
+                "lots_available": "117"
+              }
+            ],
+            "carpark_number": "GE3",
+            "update_datetime": "2023-08-06T09:12:58"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "253",
+                "lot_type": "C",
+                "lots_available": "68"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "43",
+                "lot_type": "Y",
+                "lots_available": "36"
+              }
+            ],
+            "carpark_number": "GE5",
+            "update_datetime": "2023-08-06T09:16:18"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "70",
+                "lot_type": "C",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "80",
+                "lot_type": "Y",
+                "lots_available": "54"
+              }
+            ],
+            "carpark_number": "JB1",
+            "update_datetime": "2023-08-06T09:17:16"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "55",
+                "lot_type": "C",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "21",
+                "lot_type": "Y",
+                "lots_available": "16"
+              }
+            ],
+            "carpark_number": "JB2",
+            "update_datetime": "2023-08-06T09:12:16"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "159",
+                "lot_type": "C",
+                "lots_available": "21"
+              }
+            ],
+            "carpark_number": "K7",
+            "update_datetime": "2022-09-01T18:34:59"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "429",
+                "lot_type": "C",
+                "lots_available": "314"
+              }
+            ],
+            "carpark_number": "KM4",
+            "update_datetime": "2022-09-01T18:35:00"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "260",
+                "lot_type": "C",
+                "lots_available": "115"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "72",
+                "lot_type": "Y",
+                "lots_available": "54"
+              }
+            ],
+            "carpark_number": "LT1",
+            "update_datetime": "2023-08-06T09:12:14"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "74",
+                "lot_type": "C",
+                "lots_available": "5"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "19",
+                "lot_type": "Y",
+                "lots_available": "5"
+              }
+            ],
+            "carpark_number": "LT2",
+            "update_datetime": "2023-08-06T09:12:14"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "244",
+                "lot_type": "C",
+                "lots_available": "46"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "31",
+                "lot_type": "Y",
+                "lots_available": "6"
+              }
+            ],
+            "carpark_number": "LT3",
+            "update_datetime": "2023-08-06T09:12:14"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "312",
+                "lot_type": "C",
+                "lots_available": "145"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "129",
+                "lot_type": "Y",
+                "lots_available": "80"
+              }
+            ],
+            "carpark_number": "M1",
+            "update_datetime": "2023-08-06T09:12:59"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "352",
+                "lot_type": "C",
+                "lots_available": "141"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "106",
+                "lot_type": "Y",
+                "lots_available": "33"
+              }
+            ],
+            "carpark_number": "M32",
+            "update_datetime": "2023-08-06T09:17:03"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "159",
+                "lot_type": "C",
+                "lots_available": "37"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "44",
+                "lot_type": "Y",
+                "lots_available": "25"
+              }
+            ],
+            "carpark_number": "MP1",
+            "update_datetime": "2023-08-06T09:12:12"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "87",
+                "lot_type": "C",
+                "lots_available": "54"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "17",
+                "lot_type": "Y",
+                "lots_available": "6"
+              }
+            ],
+            "carpark_number": "MP17",
+            "update_datetime": "2023-08-06T09:14:25"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "616",
+                "lot_type": "C",
+                "lots_available": "146"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "76",
+                "lot_type": "Y",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "MP2",
+            "update_datetime": "2023-08-06T09:12:12"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "162",
+                "lot_type": "C",
+                "lots_available": "134"
+              },
+              {
+                "total_lots": "24",
+                "lot_type": "Y",
+                "lots_available": "2"
+              },
+              {
+                "total_lots": "20",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "MP5",
+            "update_datetime": "2023-08-06T09:14:24"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "159",
+                "lot_type": "C",
+                "lots_available": "5"
+              },
+              {
+                "total_lots": "40",
+                "lot_type": "Y",
+                "lots_available": "17"
+              },
+              {
+                "total_lots": "159",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "MP5M",
+            "update_datetime": "2023-08-06T09:12:19"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "33",
+                "lot_type": "C",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "8",
+                "lot_type": "Y",
+                "lots_available": "2"
+              },
+              {
+                "total_lots": "39",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "MP5S",
+            "update_datetime": "2023-08-06T09:12:18"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "76",
+                "lot_type": "C",
+                "lots_available": "39"
+              },
+              {
+                "total_lots": "36",
+                "lot_type": "Y",
+                "lots_available": "18"
+              },
+              {
+                "total_lots": "10",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "MP6",
+            "update_datetime": "2023-08-06T09:14:25"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "212",
+                "lot_type": "C",
+                "lots_available": "57"
+              }
+            ],
+            "carpark_number": "MP7",
+            "update_datetime": "2023-08-06T09:15:09"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "456",
+                "lot_type": "C",
+                "lots_available": "448"
+              },
+              {
+                "total_lots": "100",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "71",
+                "lot_type": "Y",
+                "lots_available": "59"
+              }
+            ],
+            "carpark_number": "SK9",
+            "update_datetime": "2023-08-06T09:21:44"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "444",
+                "lot_type": "C",
+                "lots_available": "444"
+              },
+              {
+                "total_lots": "100",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "81",
+                "lot_type": "Y",
+                "lots_available": "45"
+              }
+            ],
+            "carpark_number": "SK14",
+            "update_datetime": "2023-08-06T09:21:44"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "625",
+                "lot_type": "C",
+                "lots_available": "294"
+              }
+            ],
+            "carpark_number": "BE10",
+            "update_datetime": "2023-08-06T09:20:34"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "352",
+                "lot_type": "C",
+                "lots_available": "136"
+              }
+            ],
+            "carpark_number": "BE11",
+            "update_datetime": "2023-08-06T09:20:34"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "220",
+                "lot_type": "C",
+                "lots_available": "140"
+              }
+            ],
+            "carpark_number": "BE13",
+            "update_datetime": "2023-08-06T09:20:58"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "332",
+                "lot_type": "C",
+                "lots_available": "189"
+              }
+            ],
+            "carpark_number": "BE14",
+            "update_datetime": "2023-08-06T09:20:49"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "65",
+                "lot_type": "C",
+                "lots_available": "29"
+              }
+            ],
+            "carpark_number": "BE26",
+            "update_datetime": "2023-08-06T09:19:31"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "344",
+                "lot_type": "C",
+                "lots_available": "193"
+              }
+            ],
+            "carpark_number": "BE27",
+            "update_datetime": "2023-08-06T09:23:06"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "304",
+                "lot_type": "C",
+                "lots_available": "53"
+              }
+            ],
+            "carpark_number": "BE28",
+            "update_datetime": "2023-08-06T09:23:06"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "48",
+                "lot_type": "C",
+                "lots_available": "7"
+              }
+            ],
+            "carpark_number": "BE29",
+            "update_datetime": "2023-08-06T09:20:32"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "345",
+                "lot_type": "C",
+                "lots_available": "233"
+              }
+            ],
+            "carpark_number": "BE30",
+            "update_datetime": "2023-08-06T09:20:32"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "300",
+                "lot_type": "C",
+                "lots_available": "221"
+              }
+            ],
+            "carpark_number": "BE31",
+            "update_datetime": "2023-08-06T09:20:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "200",
+                "lot_type": "C",
+                "lots_available": "84"
+              }
+            ],
+            "carpark_number": "BE32",
+            "update_datetime": "2023-08-06T09:20:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "770",
+                "lot_type": "C",
+                "lots_available": "364"
+              }
+            ],
+            "carpark_number": "BE4",
+            "update_datetime": "2023-08-06T09:20:54"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "647",
+                "lot_type": "C",
+                "lots_available": "317"
+              }
+            ],
+            "carpark_number": "BE5",
+            "update_datetime": "2023-08-06T09:20:37"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "170",
+                "lot_type": "C",
+                "lots_available": "111"
+              }
+            ],
+            "carpark_number": "BE6",
+            "update_datetime": "2023-08-06T09:20:58"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "711",
+                "lot_type": "C",
+                "lots_available": "159"
+              }
+            ],
+            "carpark_number": "BE9",
+            "update_datetime": "2023-08-06T09:20:49"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "245",
+                "lot_type": "C",
+                "lots_available": "170"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "37",
+                "lot_type": "Y",
+                "lots_available": "16"
+              }
+            ],
+            "carpark_number": "CLM",
+            "update_datetime": "2023-08-06T09:12:18"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "94",
+                "lot_type": "C",
+                "lots_available": "34"
+              },
+              {
+                "total_lots": "32",
+                "lot_type": "Y",
+                "lots_available": "7"
+              },
+              {
+                "total_lots": "10",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "BM14",
+            "update_datetime": "2023-08-06T09:12:22"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "36",
+                "lot_type": "C",
+                "lots_available": "8"
+              },
+              {
+                "total_lots": "16",
+                "lot_type": "Y",
+                "lots_available": "6"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              }
+            ],
+            "carpark_number": "BM19",
+            "update_datetime": "2023-08-06T09:13:00"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "60",
+                "lot_type": "C",
+                "lots_available": "36"
+              },
+              {
+                "total_lots": "24",
+                "lot_type": "Y",
+                "lots_available": "11"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              }
+            ],
+            "carpark_number": "BM20",
+            "update_datetime": "2023-08-06T09:15:00"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "9999",
+                "lot_type": "C",
+                "lots_available": "9893"
+              }
+            ],
+            "carpark_number": "BM4",
+            "update_datetime": "2023-08-06T09:22:45"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "29",
+                "lot_type": "C",
+                "lots_available": "1"
+              },
+              {
+                "total_lots": "10",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "26",
+                "lot_type": "Y",
+                "lots_available": "4"
+              }
+            ],
+            "carpark_number": "BM6",
+            "update_datetime": "2023-08-06T09:14:14"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "504",
+                "lot_type": "C",
+                "lots_available": "408"
+              },
+              {
+                "total_lots": "112",
+                "lot_type": "Y",
+                "lots_available": "64"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              }
+            ],
+            "carpark_number": "BVM2",
+            "update_datetime": "2023-08-06T09:15:07"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "962",
+                "lot_type": "C",
+                "lots_available": "687"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "256",
+                "lot_type": "Y",
+                "lots_available": "224"
+              }
+            ],
+            "carpark_number": "CM1",
+            "update_datetime": "2023-08-06T09:18:20"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "356",
+                "lot_type": "C",
+                "lots_available": "176"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "113",
+                "lot_type": "Y",
+                "lots_available": "49"
+              }
+            ],
+            "carpark_number": "H12",
+            "update_datetime": "2023-08-06T09:14:30"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "220",
+                "lot_type": "C",
+                "lots_available": "117"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "53",
+                "lot_type": "Y",
+                "lots_available": "40"
+              }
+            ],
+            "carpark_number": "H14",
+            "update_datetime": "2023-08-06T09:17:12"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "148",
+                "lot_type": "C",
+                "lots_available": "16"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "53",
+                "lot_type": "Y",
+                "lots_available": "53"
+              }
+            ],
+            "carpark_number": "H3",
+            "update_datetime": "2023-08-06T09:17:05"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "82",
+                "lot_type": "C",
+                "lots_available": "62"
+              },
+              {
+                "total_lots": "65",
+                "lot_type": "Y",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "1",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "H8",
+            "update_datetime": "2023-08-06T09:18:14"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "386",
+                "lot_type": "C",
+                "lots_available": "309"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "208",
+                "lot_type": "Y",
+                "lots_available": "195"
+              }
+            ],
+            "carpark_number": "HCM",
+            "update_datetime": "2023-08-06T09:15:09"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "21",
+                "lot_type": "C",
+                "lots_available": "2"
+              },
+              {
+                "total_lots": "10",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "10",
+                "lot_type": "Y",
+                "lots_available": "9"
+              }
+            ],
+            "carpark_number": "HE1",
+            "update_datetime": "2023-08-06T09:15:09"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "93",
+                "lot_type": "C",
+                "lots_available": "41"
+              },
+              {
+                "total_lots": "30",
+                "lot_type": "Y",
+                "lots_available": "12"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              }
+            ],
+            "carpark_number": "HE19",
+            "update_datetime": "2023-08-06T09:12:09"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "37",
+                "lot_type": "C",
+                "lots_available": "4"
+              },
+              {
+                "total_lots": "5",
+                "lot_type": "Y",
+                "lots_available": "1"
+              },
+              {
+                "total_lots": "1",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "HE24",
+            "update_datetime": "2023-08-06T09:18:11"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "124",
+                "lot_type": "C",
+                "lots_available": "38"
+              },
+              {
+                "total_lots": "30",
+                "lot_type": "Y",
+                "lots_available": "10"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              }
+            ],
+            "carpark_number": "HE4",
+            "update_datetime": "2023-08-06T09:15:07"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "492",
+                "lot_type": "C",
+                "lots_available": "381"
+              }
+            ],
+            "carpark_number": "JMB1",
+            "update_datetime": "2023-08-06T05:00:09"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "433",
+                "lot_type": "C",
+                "lots_available": "305"
+              },
+              {
+                "total_lots": "90",
+                "lot_type": "Y",
+                "lots_available": "52"
+              },
+              {
+                "total_lots": "10",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "JRTM",
+            "update_datetime": "2023-08-06T09:15:22"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "247",
+                "lot_type": "C",
+                "lots_available": "72"
+              },
+              {
+                "total_lots": "42",
+                "lot_type": "Y",
+                "lots_available": "27"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              }
+            ],
+            "carpark_number": "KTM",
+            "update_datetime": "2023-08-06T09:16:17"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "429",
+                "lot_type": "C",
+                "lots_available": "213"
+              },
+              {
+                "total_lots": "48",
+                "lot_type": "Y",
+                "lots_available": "20"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              }
+            ],
+            "carpark_number": "KTM2",
+            "update_datetime": "2023-08-06T09:12:17"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "465",
+                "lot_type": "C",
+                "lots_available": "341"
+              },
+              {
+                "total_lots": "116",
+                "lot_type": "Y",
+                "lots_available": "96"
+              },
+              {
+                "total_lots": "10",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "KTM3",
+            "update_datetime": "2023-08-06T09:13:06"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "380",
+                "lot_type": "C",
+                "lots_available": "227"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "57",
+                "lot_type": "Y",
+                "lots_available": "24"
+              }
+            ],
+            "carpark_number": "KTM4",
+            "update_datetime": "2023-08-06T09:17:04"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "169",
+                "lot_type": "C",
+                "lots_available": "61"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "35",
+                "lot_type": "Y",
+                "lots_available": "17"
+              }
+            ],
+            "carpark_number": "LBM",
+            "update_datetime": "2023-08-06T09:17:03"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "131",
+                "lot_type": "C",
+                "lots_available": "71"
+              }
+            ],
+            "carpark_number": "PP9T",
+            "update_datetime": "2023-08-06T09:22:35"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "222",
+                "lot_type": "C",
+                "lots_available": "128"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "95",
+                "lot_type": "Y",
+                "lots_available": "75"
+              }
+            ],
+            "carpark_number": "RHM2",
+            "update_datetime": "2023-08-06T09:14:27"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "646",
+                "lot_type": "C",
+                "lots_available": "455"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              },
+              {
+                "total_lots": "104",
+                "lot_type": "Y",
+                "lots_available": "93"
+              }
+            ],
+            "carpark_number": "RHM3",
+            "update_datetime": "2023-08-06T09:16:34"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "282",
+                "lot_type": "C",
+                "lots_available": "81"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "7",
+                "lot_type": "Y",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "RHM4",
+            "update_datetime": "2023-08-06T09:12:34"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "12",
+                "lot_type": "C",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "1",
+                "lot_type": "H",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "3",
+                "lot_type": "Y",
+                "lots_available": "1"
+              }
+            ],
+            "carpark_number": "RHS",
+            "update_datetime": "2023-08-06T09:16:34"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "433",
+                "lot_type": "C",
+                "lots_available": "293"
+              }
+            ],
+            "carpark_number": "HG30",
+            "update_datetime": "2023-08-06T09:22:16"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "85",
+                "lot_type": "C",
+                "lots_available": "26"
+              }
+            ],
+            "carpark_number": "HG31",
+            "update_datetime": "2023-08-06T09:20:49"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "270",
+                "lot_type": "C",
+                "lots_available": "68"
+              }
+            ],
+            "carpark_number": "HG32",
+            "update_datetime": "2023-08-06T09:21:21"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "204",
+                "lot_type": "C",
+                "lots_available": "37"
+              }
+            ],
+            "carpark_number": "HG39",
+            "update_datetime": "2023-08-06T09:22:30"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "432",
+                "lot_type": "C",
+                "lots_available": "331"
+              }
+            ],
+            "carpark_number": "HG47",
+            "update_datetime": "2023-08-06T09:22:36"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "837",
+                "lot_type": "C",
+                "lots_available": "396"
+              }
+            ],
+            "carpark_number": "HG48",
+            "update_datetime": "2023-08-06T09:22:10"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "776",
+                "lot_type": "C",
+                "lots_available": "203"
+              }
+            ],
+            "carpark_number": "HG49",
+            "update_datetime": "2023-08-06T09:22:20"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "490",
+                "lot_type": "C",
+                "lots_available": "182"
+              }
+            ],
+            "carpark_number": "HG50",
+            "update_datetime": "2023-08-06T09:22:38"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "204",
+                "lot_type": "C",
+                "lots_available": "63"
+              }
+            ],
+            "carpark_number": "HG51",
+            "update_datetime": "2023-08-06T09:22:28"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "192",
+                "lot_type": "C",
+                "lots_available": "46"
+              }
+            ],
+            "carpark_number": "HG52",
+            "update_datetime": "2023-08-06T09:22:10"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "240",
+                "lot_type": "C",
+                "lots_available": "96"
+              }
+            ],
+            "carpark_number": "HG54",
+            "update_datetime": "2023-08-06T09:21:40"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "88",
+                "lot_type": "C",
+                "lots_available": "17"
+              }
+            ],
+            "carpark_number": "HG55",
+            "update_datetime": "2023-08-06T09:22:45"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "371",
+                "lot_type": "C",
+                "lots_available": "254"
+              }
+            ],
+            "carpark_number": "HG60",
+            "update_datetime": "2023-08-06T09:22:28"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "311",
+                "lot_type": "C",
+                "lots_available": "176"
+              }
+            ],
+            "carpark_number": "HG61",
+            "update_datetime": "2023-08-06T09:22:10"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "345",
+                "lot_type": "C",
+                "lots_available": "241"
+              }
+            ],
+            "carpark_number": "HG62",
+            "update_datetime": "2023-08-06T09:22:10"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "705",
+                "lot_type": "C",
+                "lots_available": "263"
+              }
+            ],
+            "carpark_number": "HG67",
+            "update_datetime": "2023-08-06T09:22:21"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "248",
+                "lot_type": "C",
+                "lots_available": "142"
+              }
+            ],
+            "carpark_number": "HG68",
+            "update_datetime": "2023-08-06T09:20:34"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "187",
+                "lot_type": "C",
+                "lots_available": "89"
+              }
+            ],
+            "carpark_number": "HG69",
+            "update_datetime": "2023-08-06T09:20:25"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "757",
+                "lot_type": "C",
+                "lots_available": "231"
+              }
+            ],
+            "carpark_number": "HG7",
+            "update_datetime": "2023-08-06T09:20:22"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "348",
+                "lot_type": "C",
+                "lots_available": "155"
+              }
+            ],
+            "carpark_number": "HG70",
+            "update_datetime": "2023-08-06T09:22:43"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "270",
+                "lot_type": "C",
+                "lots_available": "123"
+              }
+            ],
+            "carpark_number": "HG76",
+            "update_datetime": "2023-08-06T09:20:14"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "423",
+                "lot_type": "C",
+                "lots_available": "280"
+              }
+            ],
+            "carpark_number": "HG77",
+            "update_datetime": "2023-08-06T09:21:58"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "490",
+                "lot_type": "C",
+                "lots_available": "287"
+              }
+            ],
+            "carpark_number": "HG78",
+            "update_datetime": "2023-08-06T09:21:56"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "401",
+                "lot_type": "C",
+                "lots_available": "215"
+              }
+            ],
+            "carpark_number": "HG79",
+            "update_datetime": "2023-08-06T09:21:51"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "387",
+                "lot_type": "C",
+                "lots_available": "305"
+              }
+            ],
+            "carpark_number": "HG89",
+            "update_datetime": "2023-08-06T09:22:20"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "896",
+                "lot_type": "C",
+                "lots_available": "576"
+              }
+            ],
+            "carpark_number": "HG94",
+            "update_datetime": "2023-08-06T09:20:27"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "168",
+                "lot_type": "C",
+                "lots_available": "55"
+              }
+            ],
+            "carpark_number": "HG95",
+            "update_datetime": "2023-08-06T09:22:31"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "39",
+                "lot_type": "C",
+                "lots_available": "9"
+              }
+            ],
+            "carpark_number": "HG96",
+            "update_datetime": "2023-08-06T09:22:31"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "43",
+                "lot_type": "C",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "HG97",
+            "update_datetime": "2023-08-06T09:22:18"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "162",
+                "lot_type": "C",
+                "lots_available": "80"
+              }
+            ],
+            "carpark_number": "HG99",
+            "update_datetime": "2023-08-06T09:20:34"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "243",
+                "lot_type": "C",
+                "lots_available": "2"
+              }
+            ],
+            "carpark_number": "J12",
+            "update_datetime": "2023-08-06T09:22:35"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "192",
+                "lot_type": "C",
+                "lots_available": "4"
+              }
+            ],
+            "carpark_number": "J14",
+            "update_datetime": "2023-08-06T09:22:51"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "205",
+                "lot_type": "C",
+                "lots_available": "42"
+              }
+            ],
+            "carpark_number": "J15",
+            "update_datetime": "2023-08-06T09:22:32"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "212",
+                "lot_type": "C",
+                "lots_available": "68"
+              }
+            ],
+            "carpark_number": "J16",
+            "update_datetime": "2023-08-06T09:22:36"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "171",
+                "lot_type": "C",
+                "lots_available": "99"
+              }
+            ],
+            "carpark_number": "J18",
+            "update_datetime": "2023-08-06T09:22:32"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "231",
+                "lot_type": "C",
+                "lots_available": "74"
+              }
+            ],
+            "carpark_number": "J22",
+            "update_datetime": "2023-08-06T09:22:42"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "299",
+                "lot_type": "C",
+                "lots_available": "121"
+              }
+            ],
+            "carpark_number": "J23",
+            "update_datetime": "2023-08-06T09:22:54"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "249",
+                "lot_type": "C",
+                "lots_available": "144"
+              }
+            ],
+            "carpark_number": "J23M",
+            "update_datetime": "2023-08-06T09:22:48"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "377",
+                "lot_type": "C",
+                "lots_available": "157"
+              }
+            ],
+            "carpark_number": "J8",
+            "update_datetime": "2023-08-06T09:22:31"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "189",
+                "lot_type": "C",
+                "lots_available": "56"
+              }
+            ],
+            "carpark_number": "J9",
+            "update_datetime": "2023-08-06T09:22:25"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "1294",
+                "lot_type": "C",
+                "lots_available": "817"
+              }
+            ],
+            "carpark_number": "J90",
+            "update_datetime": "2023-08-06T09:22:34"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "587",
+                "lot_type": "C",
+                "lots_available": "387"
+              }
+            ],
+            "carpark_number": "J91",
+            "update_datetime": "2023-08-06T09:22:48"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "447",
+                "lot_type": "C",
+                "lots_available": "294"
+              }
+            ],
+            "carpark_number": "J92",
+            "update_datetime": "2023-08-06T09:22:34"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "483",
+                "lot_type": "C",
+                "lots_available": "305"
+              }
+            ],
+            "carpark_number": "J93",
+            "update_datetime": "2023-08-06T09:22:36"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "421",
+                "lot_type": "C",
+                "lots_available": "275"
+              }
+            ],
+            "carpark_number": "J94",
+            "update_datetime": "2023-08-06T09:22:42"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "467",
+                "lot_type": "C",
+                "lots_available": "252"
+              }
+            ],
+            "carpark_number": "J95",
+            "update_datetime": "2023-08-06T09:22:33"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "444",
+                "lot_type": "C",
+                "lots_available": "288"
+              }
+            ],
+            "carpark_number": "J96",
+            "update_datetime": "2021-07-06T10:47:32"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "411",
+                "lot_type": "C",
+                "lots_available": "324"
+              }
+            ],
+            "carpark_number": "J97",
+            "update_datetime": "2021-07-06T10:47:54"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "285",
+                "lot_type": "C",
+                "lots_available": "135"
+              }
+            ],
+            "carpark_number": "BBM2",
+            "update_datetime": "2023-08-06T09:22:14"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "773",
+                "lot_type": "C",
+                "lots_available": "329"
+              }
+            ],
+            "carpark_number": "U12",
+            "update_datetime": "2023-08-06T09:22:43"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "1023",
+                "lot_type": "C",
+                "lots_available": "810"
+              }
+            ],
+            "carpark_number": "CK56",
+            "update_datetime": "2023-08-06T09:22:29"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "590",
+                "lot_type": "C",
+                "lots_available": "368"
+              }
+            ],
+            "carpark_number": "CK57",
+            "update_datetime": "2023-08-06T09:22:32"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "350",
+                "lot_type": "C",
+                "lots_available": "306"
+              }
+            ],
+            "carpark_number": "U51",
+            "update_datetime": "2023-08-06T09:22:16"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "386",
+                "lot_type": "C",
+                "lots_available": "255"
+              }
+            ],
+            "carpark_number": "B59",
+            "update_datetime": "2023-08-03T23:38:40"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "272",
+                "lot_type": "C",
+                "lots_available": "170"
+              }
+            ],
+            "carpark_number": "B60",
+            "update_datetime": "2023-08-03T23:38:40"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "553",
+                "lot_type": "C",
+                "lots_available": "509"
+              }
+            ],
+            "carpark_number": "B97",
+            "update_datetime": "2023-08-06T09:24:36"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "131",
+                "lot_type": "C",
+                "lots_available": "38"
+              }
+            ],
+            "carpark_number": "CC12",
+            "update_datetime": "2023-08-06T09:22:25"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "517",
+                "lot_type": "C",
+                "lots_available": "307"
+              }
+            ],
+            "carpark_number": "SK39",
+            "update_datetime": "2023-08-06T09:20:43"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "200",
+                "lot_type": "C",
+                "lots_available": "10"
+              }
+            ],
+            "carpark_number": "SK81",
+            "update_datetime": "2023-08-06T09:22:52"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "6",
+                "lot_type": "C",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "P40L",
+            "update_datetime": "2023-08-06T09:21:46"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "355",
+                "lot_type": "C",
+                "lots_available": "123"
+              }
+            ],
+            "carpark_number": "PM10",
+            "update_datetime": "2023-08-06T09:22:23"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "508",
+                "lot_type": "C",
+                "lots_available": "243"
+              }
+            ],
+            "carpark_number": "PM25",
+            "update_datetime": "2023-08-06T09:21:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "218",
+                "lot_type": "C",
+                "lots_available": "27"
+              }
+            ],
+            "carpark_number": "PR7",
+            "update_datetime": "2023-08-06T09:22:31"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "105",
+                "lot_type": "C",
+                "lots_available": "18"
+              }
+            ],
+            "carpark_number": "MR5",
+            "update_datetime": "2023-08-06T09:20:43"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "105",
+                "lot_type": "C",
+                "lots_available": "45"
+              }
+            ],
+            "carpark_number": "MR6",
+            "update_datetime": "2020-11-02T09:56:59"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "105",
+                "lot_type": "C",
+                "lots_available": "45"
+              }
+            ],
+            "carpark_number": "MR7",
+            "update_datetime": "2020-11-02T09:56:59"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "294",
+                "lot_type": "C",
+                "lots_available": "99"
+              }
+            ],
+            "carpark_number": "SG1",
+            "update_datetime": "2023-08-06T09:20:59"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "230",
+                "lot_type": "C",
+                "lots_available": "137"
+              }
+            ],
+            "carpark_number": "SGLM",
+            "update_datetime": "2023-08-06T09:20:59"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "355",
+                "lot_type": "C",
+                "lots_available": "94"
+              }
+            ],
+            "carpark_number": "W4M",
+            "update_datetime": "2023-08-06T09:20:41"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "434",
+                "lot_type": "C",
+                "lots_available": "174"
+              }
+            ],
+            "carpark_number": "W59",
+            "update_datetime": "2023-08-06T09:21:00"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "376",
+                "lot_type": "C",
+                "lots_available": "224"
+              }
+            ],
+            "carpark_number": "W554",
+            "update_datetime": "2023-08-06T09:21:53"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "429",
+                "lot_type": "C",
+                "lots_available": "238"
+              }
+            ],
+            "carpark_number": "W549",
+            "update_datetime": "2023-08-06T09:21:53"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "300",
+                "lot_type": "C",
+                "lots_available": "182"
+              }
+            ],
+            "carpark_number": "W81",
+            "update_datetime": "2023-08-06T09:22:01"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "460",
+                "lot_type": "C",
+                "lots_available": "342"
+              },
+              {
+                "total_lots": "142",
+                "lot_type": "Y",
+                "lots_available": "140"
+              },
+              {
+                "total_lots": "100",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "SK28",
+            "update_datetime": "2023-08-06T09:21:24"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "360",
+                "lot_type": "C",
+                "lots_available": "160"
+              }
+            ],
+            "carpark_number": "W586",
+            "update_datetime": "2023-08-06T09:21:35"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "358",
+                "lot_type": "C",
+                "lots_available": "193"
+              }
+            ],
+            "carpark_number": "W588",
+            "update_datetime": "2023-08-06T09:21:35"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "526",
+                "lot_type": "C",
+                "lots_available": "120"
+              },
+              {
+                "total_lots": "135",
+                "lot_type": "Y",
+                "lots_available": "123"
+              },
+              {
+                "total_lots": "100",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "SK29",
+            "update_datetime": "2023-08-06T09:21:24"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "20",
+                "lot_type": "C",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "W26",
+            "update_datetime": "2023-08-06T09:21:00"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "4",
+                "lot_type": "C",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "W27",
+            "update_datetime": "2023-08-06T09:20:47"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "330",
+                "lot_type": "C",
+                "lots_available": "183"
+              }
+            ],
+            "carpark_number": "PM8",
+            "update_datetime": "2023-08-06T09:22:39"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "158",
+                "lot_type": "C",
+                "lots_available": "30"
+              }
+            ],
+            "carpark_number": "PR8",
+            "update_datetime": "2023-08-06T09:22:39"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "264",
+                "lot_type": "C",
+                "lots_available": "131"
+              }
+            ],
+            "carpark_number": "SK69",
+            "update_datetime": "2023-08-06T09:22:57"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "278",
+                "lot_type": "C",
+                "lots_available": "126"
+              }
+            ],
+            "carpark_number": "AH1",
+            "update_datetime": "2023-08-06T09:20:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "78",
+                "lot_type": "C",
+                "lots_available": "26"
+              }
+            ],
+            "carpark_number": "BR14",
+            "update_datetime": "2023-08-06T09:20:56"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "164",
+                "lot_type": "C",
+                "lots_available": "84"
+              }
+            ],
+            "carpark_number": "RC1",
+            "update_datetime": "2023-08-06T09:20:46"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "82",
+                "lot_type": "C",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "TP12",
+            "update_datetime": "2023-08-06T09:20:20"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "85",
+                "lot_type": "C",
+                "lots_available": "18"
+              }
+            ],
+            "carpark_number": "TP15",
+            "update_datetime": "2023-08-06T09:20:52"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "90",
+                "lot_type": "C",
+                "lots_available": "10"
+              }
+            ],
+            "carpark_number": "TP20",
+            "update_datetime": "2023-08-06T09:22:49"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "183",
+                "lot_type": "C",
+                "lots_available": "115"
+              }
+            ],
+            "carpark_number": "TP22",
+            "update_datetime": "2023-08-06T09:20:42"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "215",
+                "lot_type": "C",
+                "lots_available": "58"
+              }
+            ],
+            "carpark_number": "TP3",
+            "update_datetime": "2023-08-06T09:20:48"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "31",
+                "lot_type": "C",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "TP30",
+            "update_datetime": "2023-08-06T09:20:49"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "187",
+                "lot_type": "C",
+                "lots_available": "39"
+              }
+            ],
+            "carpark_number": "TP34",
+            "update_datetime": "2023-08-06T09:20:42"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "200",
+                "lot_type": "C",
+                "lots_available": "55"
+              }
+            ],
+            "carpark_number": "TP3A",
+            "update_datetime": "2023-08-06T09:20:51"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "360",
+                "lot_type": "C",
+                "lots_available": "134"
+              }
+            ],
+            "carpark_number": "TP40",
+            "update_datetime": "2023-08-06T09:20:58"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "134",
+                "lot_type": "C",
+                "lots_available": "34"
+              }
+            ],
+            "carpark_number": "TP41",
+            "update_datetime": "2023-08-06T09:20:44"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "114",
+                "lot_type": "C",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "TP43",
+            "update_datetime": "2023-08-06T09:20:59"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "20",
+                "lot_type": "C",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "TP48",
+            "update_datetime": "2023-08-06T09:20:49"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "456",
+                "lot_type": "C",
+                "lots_available": "89"
+              }
+            ],
+            "carpark_number": "TP52",
+            "update_datetime": "2023-08-06T09:20:57"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "323",
+                "lot_type": "C",
+                "lots_available": "138"
+              }
+            ],
+            "carpark_number": "TP53",
+            "update_datetime": "2023-08-06T09:23:04"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "256",
+                "lot_type": "C",
+                "lots_available": "131"
+              }
+            ],
+            "carpark_number": "TP54",
+            "update_datetime": "2023-08-06T09:23:04"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "275",
+                "lot_type": "C",
+                "lots_available": "76"
+              }
+            ],
+            "carpark_number": "TP60",
+            "update_datetime": "2023-08-06T09:20:33"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "162",
+                "lot_type": "C",
+                "lots_available": "96"
+              }
+            ],
+            "carpark_number": "TP62",
+            "update_datetime": "2023-08-06T09:20:27"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "114",
+                "lot_type": "C",
+                "lots_available": "37"
+              }
+            ],
+            "carpark_number": "TP63",
+            "update_datetime": "2023-08-06T09:20:27"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "183",
+                "lot_type": "C",
+                "lots_available": "15"
+              }
+            ],
+            "carpark_number": "TP67",
+            "update_datetime": "2023-08-06T09:20:58"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "187",
+                "lot_type": "C",
+                "lots_available": "75"
+              }
+            ],
+            "carpark_number": "TP7",
+            "update_datetime": "2023-08-06T09:20:46"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "189",
+                "lot_type": "C",
+                "lots_available": "65"
+              }
+            ],
+            "carpark_number": "TP8",
+            "update_datetime": "2023-08-06T09:20:46"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "200",
+                "lot_type": "C",
+                "lots_available": "18"
+              }
+            ],
+            "carpark_number": "TPB1",
+            "update_datetime": "2023-08-06T09:20:59"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "211",
+                "lot_type": "C",
+                "lots_available": "77"
+              }
+            ],
+            "carpark_number": "TPM2",
+            "update_datetime": "2023-08-06T09:20:31"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "370",
+                "lot_type": "C",
+                "lots_available": "247"
+              }
+            ],
+            "carpark_number": "TPM3",
+            "update_datetime": "2023-08-06T09:22:50"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "200",
+                "lot_type": "C",
+                "lots_available": "67"
+              }
+            ],
+            "carpark_number": "TPM7",
+            "update_datetime": "2023-08-06T09:20:49"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "800",
+                "lot_type": "C",
+                "lots_available": "440"
+              }
+            ],
+            "carpark_number": "TPM8",
+            "update_datetime": "2023-08-06T09:20:49"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "852",
+                "lot_type": "C",
+                "lots_available": "840"
+              }
+            ],
+            "carpark_number": "TPM9",
+            "update_datetime": "2020-09-08T15:53:52"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "505",
+                "lot_type": "C",
+                "lots_available": "301"
+              }
+            ],
+            "carpark_number": "TPMA",
+            "update_datetime": "2023-08-06T09:23:05"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "601",
+                "lot_type": "C",
+                "lots_available": "442"
+              }
+            ],
+            "carpark_number": "TPMB",
+            "update_datetime": "2023-08-06T09:20:18"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "633",
+                "lot_type": "C",
+                "lots_available": "456"
+              }
+            ],
+            "carpark_number": "TPMC",
+            "update_datetime": "2023-08-06T09:22:42"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "143",
+                "lot_type": "C",
+                "lots_available": "96"
+              }
+            ],
+            "carpark_number": "TPMD",
+            "update_datetime": "2023-08-06T09:22:53"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "172",
+                "lot_type": "C",
+                "lots_available": "124"
+              }
+            ],
+            "carpark_number": "TPME",
+            "update_datetime": "2023-08-06T09:20:31"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "458",
+                "lot_type": "C",
+                "lots_available": "220"
+              }
+            ],
+            "carpark_number": "TPMF",
+            "update_datetime": "2023-08-06T09:20:58"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "246",
+                "lot_type": "C",
+                "lots_available": "152"
+              }
+            ],
+            "carpark_number": "TPMH",
+            "update_datetime": "2023-08-06T09:20:58"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "657",
+                "lot_type": "C",
+                "lots_available": "308"
+              }
+            ],
+            "carpark_number": "TPMJ",
+            "update_datetime": "2023-08-06T09:20:58"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "173",
+                "lot_type": "C",
+                "lots_available": "65"
+              }
+            ],
+            "carpark_number": "TPMK",
+            "update_datetime": "2023-08-06T09:20:44"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "266",
+                "lot_type": "C",
+                "lots_available": "112"
+              }
+            ],
+            "carpark_number": "TPML",
+            "update_datetime": "2023-08-06T09:20:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "259",
+                "lot_type": "C",
+                "lots_available": "85"
+              }
+            ],
+            "carpark_number": "TPMM",
+            "update_datetime": "2023-08-06T09:20:55"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "779",
+                "lot_type": "C",
+                "lots_available": "100"
+              },
+              {
+                "total_lots": "100",
+                "lot_type": "Y",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "100",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "SK24",
+            "update_datetime": "2023-08-06T09:19:46"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "225",
+                "lot_type": "C",
+                "lots_available": "65"
+              }
+            ],
+            "carpark_number": "HG17",
+            "update_datetime": "2023-08-06T09:20:20"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "823",
+                "lot_type": "C",
+                "lots_available": "631"
+              }
+            ],
+            "carpark_number": "HG75",
+            "update_datetime": "2023-08-06T09:20:23"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "404",
+                "lot_type": "C",
+                "lots_available": "231"
+              }
+            ],
+            "carpark_number": "HG86",
+            "update_datetime": "2023-08-06T09:20:23"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "1010",
+                "lot_type": "C",
+                "lots_available": "803"
+              }
+            ],
+            "carpark_number": "HG92",
+            "update_datetime": "2023-08-06T09:20:33"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "320",
+                "lot_type": "C",
+                "lots_available": "119"
+              },
+              {
+                "total_lots": "52",
+                "lot_type": "Y",
+                "lots_available": "43"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              }
+            ],
+            "carpark_number": "Q86",
+            "update_datetime": "2023-08-06T09:12:21"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "20",
+                "lot_type": "C",
+                "lots_available": "4"
+              }
+            ],
+            "carpark_number": "Q19",
+            "update_datetime": "2023-08-06T09:18:22"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "12",
+                "lot_type": "Y",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "50"
+              }
+            ],
+            "carpark_number": "Q19",
+            "update_datetime": "2023-08-06T09:12:21"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "200",
+                "lot_type": "C",
+                "lots_available": "79"
+              },
+              {
+                "total_lots": "100",
+                "lot_type": "Y",
+                "lots_available": "32"
+              },
+              {
+                "total_lots": "100",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "MLM1",
+            "update_datetime": "2023-08-06T09:16:43"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "148",
+                "lot_type": "C",
+                "lots_available": "42"
+              },
+              {
+                "total_lots": "12",
+                "lot_type": "Y",
+                "lots_available": "5"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "STM1",
+            "update_datetime": "2023-08-06T09:17:12"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "199",
+                "lot_type": "C",
+                "lots_available": "92"
+              },
+              {
+                "total_lots": "52",
+                "lot_type": "Y",
+                "lots_available": "42"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "STM2",
+            "update_datetime": "2023-08-06T09:12:13"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "100",
+                "lot_type": "C",
+                "lots_available": "0"
+              },
+              {
+                "total_lots": "55",
+                "lot_type": "Y",
+                "lots_available": "31"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "STM3",
+            "update_datetime": "2023-08-06T09:12:13"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "218",
+                "lot_type": "C",
+                "lots_available": "90"
+              },
+              {
+                "total_lots": "73",
+                "lot_type": "Y",
+                "lots_available": "42"
+              },
+              {
+                "total_lots": "100",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "Q88",
+            "update_datetime": "2023-08-06T09:16:40"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "149",
+                "lot_type": "C",
+                "lots_available": "40"
+              },
+              {
+                "total_lots": "74",
+                "lot_type": "Y",
+                "lots_available": "26"
+              },
+              {
+                "total_lots": "100",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "Q8",
+            "update_datetime": "2023-08-06T09:20:40"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "343",
+                "lot_type": "C",
+                "lots_available": "121"
+              },
+              {
+                "total_lots": "128",
+                "lot_type": "Y",
+                "lots_available": "46"
+              },
+              {
+                "total_lots": "50",
+                "lot_type": "H",
+                "lots_available": "0"
+              }
+            ],
+            "carpark_number": "CDM",
+            "update_datetime": "2023-08-06T09:16:33"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "153",
+                "lot_type": "C",
+                "lots_available": "60"
+              }
+            ],
+            "carpark_number": "PL16",
+            "update_datetime": "2023-08-06T09:22:42"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "291",
+                "lot_type": "C",
+                "lots_available": "75"
+              }
+            ],
+            "carpark_number": "PL19",
+            "update_datetime": "2023-08-06T09:22:24"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "749",
+                "lot_type": "C",
+                "lots_available": "550"
+              }
+            ],
+            "carpark_number": "PL24",
+            "update_datetime": "2023-08-06T09:22:42"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "10",
+                "lot_type": "C",
+                "lots_available": "10"
+              }
+            ],
+            "carpark_number": "PL38",
+            "update_datetime": "2023-08-06T09:22:27"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "192",
+                "lot_type": "C",
+                "lots_available": "87"
+              }
+            ],
+            "carpark_number": "PL50",
+            "update_datetime": "2023-08-06T09:22:39"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "321",
+                "lot_type": "C",
+                "lots_available": "145"
+              }
+            ],
+            "carpark_number": "PL51",
+            "update_datetime": "2023-08-06T09:22:39"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "464",
+                "lot_type": "C",
+                "lots_available": "200"
+              }
+            ],
+            "carpark_number": "CK2",
+            "update_datetime": "2023-08-06T09:22:41"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "84",
+                "lot_type": "C",
+                "lots_available": "1"
+              }
+            ],
+            "carpark_number": "A28",
+            "update_datetime": "2023-08-06T09:20:24"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "310",
+                "lot_type": "C",
+                "lots_available": "96"
+              }
+            ],
+            "carpark_number": "A31",
+            "update_datetime": "2023-08-06T09:20:26"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "155",
+                "lot_type": "C",
+                "lots_available": "50"
+              }
+            ],
+            "carpark_number": "A44",
+            "update_datetime": "2023-08-06T09:20:25"
+          },
+          {
+            "carpark_info": [
+              {
+                "total_lots": "251",
+                "lot_type": "C",
+                "lots_available": "121"
+              }
+            ],
+            "carpark_number": "A27",
+            "update_datetime": "2023-08-06T09:20:27"
+          }
+      ]
+    }
+  ]
+}

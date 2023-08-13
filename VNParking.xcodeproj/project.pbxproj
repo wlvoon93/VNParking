@@ -14,16 +14,19 @@
 		AE219CF82A7F6406000DDA3F /* ParkingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE219CF72A7F6406000DDA3F /* ParkingSection.swift */; };
 		AE219CFA2A7F647D000DDA3F /* ParkingCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE219CF92A7F647D000DDA3F /* ParkingCellVM.swift */; };
 		AE219CFC2A7F65FF000DDA3F /* ParkingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE219CFB2A7F65FF000DDA3F /* ParkingCell.swift */; };
+		AE219CFF2A87CBD3000DDA3F /* MockAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE219CFE2A87CBD3000DDA3F /* MockAPI.swift */; };
+		AE219D022A87E6B4000DDA3F /* Response1.json in Resources */ = {isa = PBXBuildFile; fileRef = AE219D012A87E6B4000DDA3F /* Response1.json */; };
+		AE219D042A87E956000DDA3F /* Response2.json in Resources */ = {isa = PBXBuildFile; fileRef = AE219D032A87E956000DDA3F /* Response2.json */; };
 		AE48EE622A7F29CE00A19E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48EE612A7F29CE00A19E75 /* AppDelegate.swift */; };
 		AE48EE642A7F29CE00A19E75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48EE632A7F29CE00A19E75 /* SceneDelegate.swift */; };
-		AE48EE662A7F29CE00A19E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48EE652A7F29CE00A19E75 /* ViewController.swift */; };
+		AE48EE662A7F29CE00A19E75 /* ParkingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48EE652A7F29CE00A19E75 /* ParkingVC.swift */; };
 		AE48EE692A7F29CE00A19E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE48EE672A7F29CE00A19E75 /* Main.storyboard */; };
 		AE48EE6B2A7F29D800A19E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE48EE6A2A7F29D800A19E75 /* Assets.xcassets */; };
 		AE48EE6E2A7F29D800A19E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE48EE6C2A7F29D800A19E75 /* LaunchScreen.storyboard */; };
 		AE48EE792A7F29D800A19E75 /* VNParkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48EE782A7F29D800A19E75 /* VNParkingTests.swift */; };
 		AE48EE832A7F29D800A19E75 /* VNParkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48EE822A7F29D800A19E75 /* VNParkingUITests.swift */; };
 		AE48EE852A7F29D800A19E75 /* VNParkingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48EE842A7F29D800A19E75 /* VNParkingUITestsLaunchTests.swift */; };
-		AE48EE922A7F2A6100A19E75 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48EE912A7F2A6100A19E75 /* ViewModel.swift */; };
+		AE48EE922A7F2A6100A19E75 /* ParkingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48EE912A7F2A6100A19E75 /* ParkingVM.swift */; };
 		AE48EE952A7F301E00A19E75 /* Parking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48EE942A7F301E00A19E75 /* Parking.swift */; };
 		AE48EE972A7F303900A19E75 /* ParkingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48EE962A7F303900A19E75 /* ParkingResponse.swift */; };
 		F7464B88ED5FFCFF0441DCEC /* Pods_VNParking_VNParkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E37F42D3B5E5DBAE78E536 /* Pods_VNParking_VNParkingUITests.framework */; };
@@ -59,10 +62,13 @@
 		AE219CF72A7F6406000DDA3F /* ParkingSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSection.swift; sourceTree = "<group>"; };
 		AE219CF92A7F647D000DDA3F /* ParkingCellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingCellVM.swift; sourceTree = "<group>"; };
 		AE219CFB2A7F65FF000DDA3F /* ParkingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingCell.swift; sourceTree = "<group>"; };
+		AE219CFE2A87CBD3000DDA3F /* MockAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPI.swift; sourceTree = "<group>"; };
+		AE219D012A87E6B4000DDA3F /* Response1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Response1.json; sourceTree = "<group>"; };
+		AE219D032A87E956000DDA3F /* Response2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Response2.json; sourceTree = "<group>"; };
 		AE48EE5E2A7F29CE00A19E75 /* VNParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE48EE612A7F29CE00A19E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE48EE632A7F29CE00A19E75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE48EE652A7F29CE00A19E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE48EE652A7F29CE00A19E75 /* ParkingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingVC.swift; sourceTree = "<group>"; };
 		AE48EE682A7F29CE00A19E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE48EE6A2A7F29D800A19E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE48EE6D2A7F29D800A19E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,7 +78,7 @@
 		AE48EE7E2A7F29D800A19E75 /* VNParkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VNParkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE48EE822A7F29D800A19E75 /* VNParkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNParkingUITests.swift; sourceTree = "<group>"; };
 		AE48EE842A7F29D800A19E75 /* VNParkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNParkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AE48EE912A7F2A6100A19E75 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AE48EE912A7F2A6100A19E75 /* ParkingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingVM.swift; sourceTree = "<group>"; };
 		AE48EE942A7F301E00A19E75 /* Parking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking.swift; sourceTree = "<group>"; };
 		AE48EE962A7F303900A19E75 /* ParkingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingResponse.swift; sourceTree = "<group>"; };
 		B8E37F42D3B5E5DBAE78E536 /* Pods_VNParking_VNParkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VNParking_VNParkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +121,16 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		AE219D002A87E66E000DDA3F /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				AE219CFE2A87CBD3000DDA3F /* MockAPI.swift */,
+				AE219D012A87E6B4000DDA3F /* Response1.json */,
+				AE219D032A87E956000DDA3F /* Response2.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		AE48EE552A7F29CE00A19E75 = {
 			isa = PBXGroup;
 			children = (
@@ -140,11 +156,12 @@
 		AE48EE602A7F29CE00A19E75 /* VNParking */ = {
 			isa = PBXGroup;
 			children = (
+				AE219D002A87E66E000DDA3F /* Mock */,
 				AE219CF42A7F635F000DDA3F /* Helper */,
 				AE48EE612A7F29CE00A19E75 /* AppDelegate.swift */,
 				AE48EE632A7F29CE00A19E75 /* SceneDelegate.swift */,
-				AE48EE652A7F29CE00A19E75 /* ViewController.swift */,
-				AE48EE912A7F2A6100A19E75 /* ViewModel.swift */,
+				AE48EE652A7F29CE00A19E75 /* ParkingVC.swift */,
+				AE48EE912A7F2A6100A19E75 /* ParkingVM.swift */,
 				AE219CF72A7F6406000DDA3F /* ParkingSection.swift */,
 				AE48EE672A7F29CE00A19E75 /* Main.storyboard */,
 				AE48EE6A2A7F29D800A19E75 /* Assets.xcassets */,
@@ -318,7 +335,9 @@
 			files = (
 				AE48EE6E2A7F29D800A19E75 /* LaunchScreen.storyboard in Resources */,
 				AE48EE6B2A7F29D800A19E75 /* Assets.xcassets in Resources */,
+				AE219D022A87E6B4000DDA3F /* Response1.json in Resources */,
 				AE48EE692A7F29CE00A19E75 /* Main.storyboard in Resources */,
+				AE219D042A87E956000DDA3F /* Response2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,13 +467,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE219CF82A7F6406000DDA3F /* ParkingSection.swift in Sources */,
-				AE48EE662A7F29CE00A19E75 /* ViewController.swift in Sources */,
+				AE48EE662A7F29CE00A19E75 /* ParkingVC.swift in Sources */,
 				AE48EE622A7F29CE00A19E75 /* AppDelegate.swift in Sources */,
-				AE48EE922A7F2A6100A19E75 /* ViewModel.swift in Sources */,
+				AE48EE922A7F2A6100A19E75 /* ParkingVM.swift in Sources */,
 				AE48EE642A7F29CE00A19E75 /* SceneDelegate.swift in Sources */,
 				AE219CFA2A7F647D000DDA3F /* ParkingCellVM.swift in Sources */,
 				AE219CF62A7F6373000DDA3F /* SectionSetter.swift in Sources */,
 				AE48EE972A7F303900A19E75 /* ParkingResponse.swift in Sources */,
+				AE219CFF2A87CBD3000DDA3F /* MockAPI.swift in Sources */,
 				AE219CFC2A7F65FF000DDA3F /* ParkingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
